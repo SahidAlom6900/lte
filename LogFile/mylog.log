@@ -1,0 +1,1198 @@
+ 2021-12-20 18:58:59,533 [restartedMain] [36mc.t.l.LteApplication[0;39m - Starting LteApplication using Java 15 on DESKTOP-7G56MR9 with PID 11916 (E:\Technoelevate Project\lte\target\classes started by Sahid in E:\Technoelevate Project\lte) 
+2021-12-20 18:58:59,536 [restartedMain] [36mc.t.l.LteApplication[0;39m - No active profile set, falling back to default profiles: default 
+2021-12-20 18:58:59,629 [restartedMain] [36mo.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[0;39m - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+2021-12-20 18:58:59,630 [restartedMain] [36mo.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[0;39m - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
+2021-12-20 18:59:02,275 [restartedMain] [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+2021-12-20 18:59:02,647 [restartedMain] [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - Finished Spring Data repository scanning in 289 ms. Found 10 JPA repository interfaces. 
+2021-12-20 18:59:04,007 [restartedMain] [36mo.s.b.w.e.t.TomcatWebServer[0;39m - Tomcat initialized with port(s): 8082 (http) 
+2021-12-20 18:59:04,026 [restartedMain] [36mo.a.c.c.StandardService[0;39m - Starting service [Tomcat] 
+2021-12-20 18:59:04,027 [restartedMain] [36mo.a.c.c.StandardEngine[0;39m - Starting Servlet engine: [Apache Tomcat/9.0.55] 
+2021-12-20 18:59:04,192 [restartedMain] [36mo.a.c.c.C.[.[.[/][0;39m - Initializing Spring embedded WebApplicationContext 
+2021-12-20 18:59:04,193 [restartedMain] [36mo.s.b.w.s.c.ServletWebServerApplicationContext[0;39m - Root WebApplicationContext: initialization completed in 4562 ms 
+2021-12-20 18:59:04,689 [restartedMain] [36mo.h.j.i.u.LogHelper[0;39m - HHH000204: Processing PersistenceUnitInfo [name: default] 
+2021-12-20 18:59:04,903 [restartedMain] [36mo.h.Version[0;39m - HHH000412: Hibernate ORM core version 5.6.1.Final 
+2021-12-20 18:59:05,308 [restartedMain] [36mo.h.a.c.Version[0;39m - HCANN000001: Hibernate Commons Annotations {5.1.2.Final} 
+2021-12-20 18:59:05,607 [restartedMain] [36mc.z.h.HikariDataSource[0;39m - HikariPool-1 - Starting... 
+2021-12-20 18:59:06,055 [restartedMain] [36mc.z.h.HikariDataSource[0;39m - HikariPool-1 - Start completed. 
+2021-12-20 18:59:06,117 [restartedMain] [36mo.h.d.Dialect[0;39m - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect 
+2021-12-20 18:59:09,981 [restartedMain] [36mo.h.e.t.j.p.i.JtaPlatformInitiator[0;39m - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+2021-12-20 18:59:09,994 [restartedMain] [36mo.s.o.j.LocalContainerEntityManagerFactoryBean[0;39m - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2021-12-20 18:59:11,434 [restartedMain] [36mo.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration[0;39m - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+2021-12-20 18:59:11,983 [restartedMain] [36mo.s.b.d.a.OptionalLiveReloadServer[0;39m - LiveReload server is running on port 35729 
+2021-12-20 18:59:12,076 [restartedMain] [36mo.s.b.w.e.t.TomcatWebServer[0;39m - Tomcat started on port(s): 8082 (http) with context path '' 
+2021-12-20 18:59:12,094 [restartedMain] [36mc.t.l.LteApplication[0;39m - Started LteApplication in 14.763 seconds (JVM running for 17.371) 
+2021-12-20 18:59:23,840 [http-nio-8082-exec-1] [36mo.a.c.c.C.[.[.[/][0;39m - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2021-12-20 18:59:23,840 [http-nio-8082-exec-1] [36mo.s.w.s.DispatcherServlet[0;39m - Initializing Servlet 'dispatcherServlet' 
+2021-12-20 18:59:23,844 [http-nio-8082-exec-1] [36mo.s.w.s.DispatcherServlet[0;39m - Completed initialization in 4 ms 
+2021-12-20 18:59:24,353 [http-nio-8082-exec-1] [36mc.t.l.c.TimeSheetController[0;39m - Data Remove Successfully!!! 
+2021-12-20 18:59:24,623 [http-nio-8082-exec-1] [36mo.s.w.s.m.m.a.ExceptionHandlerExceptionResolver[0;39m - Resolved [org.springframework.http.converter.HttpMessageNotWritableException: Could not write JSON: failed to lazily initialize a collection, could not initialize proxy - no Session; nested exception is com.fasterxml.jackson.databind.JsonMappingException: failed to lazily initialize a collection, could not initialize proxy - no Session (through reference chain: com.tyss.lte.response.TimeSheetResponse["data"]->com.tyss.lte.dto.TimeSheet["calendarDates"])] 
+2021-12-20 19:00:39,537 [Thread-5] [36mo.s.o.j.LocalContainerEntityManagerFactoryBean[0;39m - Closing JPA EntityManagerFactory for persistence unit 'default' 
+2021-12-20 19:00:39,589 [Thread-5] [36mc.z.h.HikariDataSource[0;39m - HikariPool-1 - Shutdown initiated... 
+2021-12-20 19:00:39,668 [Thread-5] [36mc.z.h.HikariDataSource[0;39m - HikariPool-1 - Shutdown completed. 
+2021-12-20 19:00:40,098 [restartedMain] [36mc.t.l.LteApplication[0;39m - Starting LteApplication using Java 15 on DESKTOP-7G56MR9 with PID 11916 (E:\Technoelevate Project\lte\target\classes started by Sahid in E:\Technoelevate Project\lte) 
+2021-12-20 19:00:40,099 [restartedMain] [36mc.t.l.LteApplication[0;39m - No active profile set, falling back to default profiles: default 
+2021-12-20 19:00:40,793 [restartedMain] [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+2021-12-20 19:00:40,946 [restartedMain] [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - Finished Spring Data repository scanning in 151 ms. Found 10 JPA repository interfaces. 
+2021-12-20 19:00:41,236 [restartedMain] [36mo.s.b.w.e.t.TomcatWebServer[0;39m - Tomcat initialized with port(s): 8082 (http) 
+2021-12-20 19:00:41,238 [restartedMain] [36mo.a.c.c.StandardService[0;39m - Starting service [Tomcat] 
+2021-12-20 19:00:41,239 [restartedMain] [36mo.a.c.c.StandardEngine[0;39m - Starting Servlet engine: [Apache Tomcat/9.0.55] 
+2021-12-20 19:00:41,301 [restartedMain] [36mo.a.c.c.C.[.[.[/][0;39m - Initializing Spring embedded WebApplicationContext 
+2021-12-20 19:00:41,302 [restartedMain] [36mo.s.b.w.s.c.ServletWebServerApplicationContext[0;39m - Root WebApplicationContext: initialization completed in 1198 ms 
+2021-12-20 19:00:41,414 [restartedMain] [36mo.h.j.i.u.LogHelper[0;39m - HHH000204: Processing PersistenceUnitInfo [name: default] 
+2021-12-20 19:00:41,423 [restartedMain] [36mc.z.h.HikariDataSource[0;39m - HikariPool-2 - Starting... 
+2021-12-20 19:00:41,436 [restartedMain] [36mc.z.h.HikariDataSource[0;39m - HikariPool-2 - Start completed. 
+2021-12-20 19:00:41,437 [restartedMain] [36mo.h.d.Dialect[0;39m - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect 
+2021-12-20 19:00:42,652 [restartedMain] [36mo.h.e.t.j.p.i.JtaPlatformInitiator[0;39m - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+2021-12-20 19:00:42,653 [restartedMain] [36mo.s.o.j.LocalContainerEntityManagerFactoryBean[0;39m - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2021-12-20 19:00:43,498 [restartedMain] [36mo.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration[0;39m - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+2021-12-20 19:00:43,774 [restartedMain] [36mo.s.b.d.a.OptionalLiveReloadServer[0;39m - LiveReload server is running on port 35729 
+2021-12-20 19:00:43,803 [restartedMain] [36mo.s.b.w.e.t.TomcatWebServer[0;39m - Tomcat started on port(s): 8082 (http) with context path '' 
+2021-12-20 19:00:43,810 [restartedMain] [36mc.t.l.LteApplication[0;39m - Started LteApplication in 3.89 seconds (JVM running for 109.087) 
+2021-12-20 19:00:43,814 [restartedMain] [36mo.s.b.d.a.ConditionEvaluationDeltaLoggingListener[0;39m - Condition evaluation unchanged 
+2021-12-20 19:01:00,850 [http-nio-8082-exec-2] [36mo.a.c.c.C.[.[.[/][0;39m - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2021-12-20 19:01:00,851 [http-nio-8082-exec-2] [36mo.s.w.s.DispatcherServlet[0;39m - Initializing Servlet 'dispatcherServlet' 
+2021-12-20 19:01:00,854 [http-nio-8082-exec-2] [36mo.s.w.s.DispatcherServlet[0;39m - Completed initialization in 3 ms 
+2021-12-20 19:01:00,995 [http-nio-8082-exec-2] [36mc.t.l.c.TimeSheetController[0;39m - Data Remove Successfully!!! 
+2021-12-20 19:02:07,271 [http-nio-8082-exec-4] [36mc.t.l.c.TimeSheetController[0;39m - Data Added Successfully!!! 
+2021-12-20 19:03:05,213 [Thread-7] [36mo.s.o.j.LocalContainerEntityManagerFactoryBean[0;39m - Closing JPA EntityManagerFactory for persistence unit 'default' 
+2021-12-20 19:03:05,443 [Thread-7] [36mc.z.h.HikariDataSource[0;39m - HikariPool-2 - Shutdown initiated... 
+2021-12-20 19:03:05,532 [Thread-7] [36mc.z.h.HikariDataSource[0;39m - HikariPool-2 - Shutdown completed. 
+2021-12-20 19:03:06,528 [restartedMain] [36mc.t.l.LteApplication[0;39m - Starting LteApplication using Java 15 on DESKTOP-7G56MR9 with PID 11916 (E:\Technoelevate Project\lte\target\classes started by Sahid in E:\Technoelevate Project\lte) 
+2021-12-20 19:03:06,529 [restartedMain] [36mc.t.l.LteApplication[0;39m - No active profile set, falling back to default profiles: default 
+2021-12-20 19:03:08,792 [restartedMain] [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+2021-12-20 19:03:08,929 [restartedMain] [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - Finished Spring Data repository scanning in 134 ms. Found 10 JPA repository interfaces. 
+2021-12-20 19:03:09,264 [restartedMain] [36mo.s.b.w.e.t.TomcatWebServer[0;39m - Tomcat initialized with port(s): 8082 (http) 
+2021-12-20 19:03:09,268 [restartedMain] [36mo.a.c.c.StandardService[0;39m - Starting service [Tomcat] 
+2021-12-20 19:03:09,270 [restartedMain] [36mo.a.c.c.StandardEngine[0;39m - Starting Servlet engine: [Apache Tomcat/9.0.55] 
+2021-12-20 19:03:09,317 [restartedMain] [36mo.a.c.c.C.[.[.[/][0;39m - Initializing Spring embedded WebApplicationContext 
+2021-12-20 19:03:09,318 [restartedMain] [36mo.s.b.w.s.c.ServletWebServerApplicationContext[0;39m - Root WebApplicationContext: initialization completed in 2785 ms 
+2021-12-20 19:03:09,412 [restartedMain] [36mo.h.j.i.u.LogHelper[0;39m - HHH000204: Processing PersistenceUnitInfo [name: default] 
+2021-12-20 19:03:09,427 [restartedMain] [36mc.z.h.HikariDataSource[0;39m - HikariPool-3 - Starting... 
+2021-12-20 19:03:09,436 [restartedMain] [36mc.z.h.HikariDataSource[0;39m - HikariPool-3 - Start completed. 
+2021-12-20 19:03:09,437 [restartedMain] [36mo.h.d.Dialect[0;39m - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect 
+2021-12-20 19:03:12,269 [restartedMain] [36mo.h.e.t.j.p.i.JtaPlatformInitiator[0;39m - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+2021-12-20 19:03:12,299 [restartedMain] [36mo.s.o.j.LocalContainerEntityManagerFactoryBean[0;39m - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2021-12-20 19:03:13,051 [restartedMain] [36mo.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration[0;39m - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+2021-12-20 19:03:13,172 [restartedMain] [36mo.s.b.d.a.OptionalLiveReloadServer[0;39m - LiveReload server is running on port 35729 
+2021-12-20 19:03:13,188 [restartedMain] [36mo.s.b.w.e.t.TomcatWebServer[0;39m - Tomcat started on port(s): 8082 (http) with context path '' 
+2021-12-20 19:03:13,195 [restartedMain] [36mc.t.l.LteApplication[0;39m - Started LteApplication in 6.845 seconds (JVM running for 258.472) 
+2021-12-20 19:03:13,196 [restartedMain] [36mo.s.b.d.a.ConditionEvaluationDeltaLoggingListener[0;39m - Condition evaluation unchanged 
+2021-12-20 19:03:18,203 [http-nio-8082-exec-2] [36mo.a.c.c.C.[.[.[/][0;39m - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2021-12-20 19:03:18,204 [http-nio-8082-exec-2] [36mo.s.w.s.DispatcherServlet[0;39m - Initializing Servlet 'dispatcherServlet' 
+2021-12-20 19:03:18,208 [http-nio-8082-exec-2] [36mo.s.w.s.DispatcherServlet[0;39m - Completed initialization in 3 ms 
+2021-12-20 19:03:18,413 [http-nio-8082-exec-2] [36mc.t.l.c.TimeSheetController[0;39m - Data Added Successfully!!! 
+2021-12-20 19:04:21,475 [http-nio-8082-exec-4] [36mc.t.l.c.TimeSheetController[0;39m - Data Added Successfully!!! 
+2021-12-20 19:06:04,643 [http-nio-8082-exec-7] [36mc.t.l.c.CalendarDateController[0;39m - Data Added Successfully!!! 
+2021-12-20 19:09:51,930 [RMI TCP Connection(15)-127.0.0.1] [36mo.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin[0;39m - Application shutdown requested. 
+2021-12-20 19:09:52,216 [Thread-11] [36mo.s.o.j.LocalContainerEntityManagerFactoryBean[0;39m - Closing JPA EntityManagerFactory for persistence unit 'default' 
+2021-12-20 19:09:52,307 [Thread-11] [36mc.z.h.HikariDataSource[0;39m - HikariPool-3 - Shutdown initiated... 
+2021-12-20 19:09:52,343 [Thread-11] [36mc.z.h.HikariDataSource[0;39m - HikariPool-3 - Shutdown completed. 
+2021-12-20 19:09:53,565 [restartedMain] [36mc.t.l.LteApplication[0;39m - Starting LteApplication using Java 15 on DESKTOP-7G56MR9 with PID 11916 (E:\Technoelevate Project\lte\target\classes started by Sahid in E:\Technoelevate Project\lte) 
+2021-12-20 19:09:53,565 [restartedMain] [36mc.t.l.LteApplication[0;39m - No active profile set, falling back to default profiles: default 
+2021-12-20 19:09:54,125 [restartedMain] [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+2021-12-20 19:09:54,214 [restartedMain] [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - Finished Spring Data repository scanning in 87 ms. Found 10 JPA repository interfaces. 
+2021-12-20 19:09:54,675 [restartedMain] [36mo.s.b.w.e.t.TomcatWebServer[0;39m - Tomcat initialized with port(s): 8082 (http) 
+2021-12-20 19:09:54,677 [restartedMain] [36mo.a.c.c.StandardService[0;39m - Starting service [Tomcat] 
+2021-12-20 19:09:54,678 [restartedMain] [36mo.a.c.c.StandardEngine[0;39m - Starting Servlet engine: [Apache Tomcat/9.0.55] 
+2021-12-20 19:09:54,731 [restartedMain] [36mo.a.c.c.C.[.[.[/][0;39m - Initializing Spring embedded WebApplicationContext 
+2021-12-20 19:09:54,732 [restartedMain] [36mo.s.b.w.s.c.ServletWebServerApplicationContext[0;39m - Root WebApplicationContext: initialization completed in 1164 ms 
+2021-12-20 19:09:54,803 [restartedMain] [36mo.h.j.i.u.LogHelper[0;39m - HHH000204: Processing PersistenceUnitInfo [name: default] 
+2021-12-20 19:09:54,816 [restartedMain] [36mc.z.h.HikariDataSource[0;39m - HikariPool-4 - Starting... 
+2021-12-20 19:09:54,831 [restartedMain] [36mc.z.h.HikariDataSource[0;39m - HikariPool-4 - Start completed. 
+2021-12-20 19:09:54,833 [restartedMain] [36mo.h.d.Dialect[0;39m - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect 
+2021-12-20 19:09:55,545 [restartedMain] [36mo.h.e.t.j.p.i.JtaPlatformInitiator[0;39m - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+2021-12-20 19:09:55,546 [restartedMain] [36mo.s.o.j.LocalContainerEntityManagerFactoryBean[0;39m - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2021-12-20 19:09:56,479 [restartedMain] [36mo.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration[0;39m - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+2021-12-20 19:09:56,695 [restartedMain] [36mo.s.b.d.a.OptionalLiveReloadServer[0;39m - LiveReload server is running on port 35729 
+2021-12-20 19:09:56,718 [restartedMain] [36mo.s.b.w.e.t.TomcatWebServer[0;39m - Tomcat started on port(s): 8082 (http) with context path '' 
+2021-12-20 19:09:56,729 [restartedMain] [36mc.t.l.LteApplication[0;39m - Started LteApplication in 3.403 seconds (JVM running for 662.006) 
+2021-12-20 19:09:56,732 [restartedMain] [36mo.s.b.d.a.ConditionEvaluationDeltaLoggingListener[0;39m - Condition evaluation unchanged 
+2021-12-20 19:15:00,521 [restartedMain] [36mc.t.l.LteApplication[0;39m - Starting LteApplication using Java 15 on DESKTOP-7G56MR9 with PID 13280 (E:\Technoelevate Project\lte\target\classes started by Sahid in E:\Technoelevate Project\lte) 
+2021-12-20 19:15:00,524 [restartedMain] [36mc.t.l.LteApplication[0;39m - No active profile set, falling back to default profiles: default 
+2021-12-20 19:15:00,630 [restartedMain] [36mo.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[0;39m - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+2021-12-20 19:15:00,631 [restartedMain] [36mo.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[0;39m - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
+2021-12-20 19:15:02,052 [restartedMain] [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+2021-12-20 19:15:02,240 [restartedMain] [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - Finished Spring Data repository scanning in 166 ms. Found 10 JPA repository interfaces. 
+2021-12-20 19:15:03,473 [restartedMain] [36mo.s.b.w.e.t.TomcatWebServer[0;39m - Tomcat initialized with port(s): 8082 (http) 
+2021-12-20 19:15:03,489 [restartedMain] [36mo.a.c.c.StandardService[0;39m - Starting service [Tomcat] 
+2021-12-20 19:15:03,490 [restartedMain] [36mo.a.c.c.StandardEngine[0;39m - Starting Servlet engine: [Apache Tomcat/9.0.55] 
+2021-12-20 19:15:03,658 [restartedMain] [36mo.a.c.c.C.[.[.[/][0;39m - Initializing Spring embedded WebApplicationContext 
+2021-12-20 19:15:03,659 [restartedMain] [36mo.s.b.w.s.c.ServletWebServerApplicationContext[0;39m - Root WebApplicationContext: initialization completed in 3026 ms 
+2021-12-20 19:15:03,900 [restartedMain] [36mo.h.j.i.u.LogHelper[0;39m - HHH000204: Processing PersistenceUnitInfo [name: default] 
+2021-12-20 19:15:03,995 [restartedMain] [36mo.h.Version[0;39m - HHH000412: Hibernate ORM core version 5.6.1.Final 
+2021-12-20 19:15:04,294 [restartedMain] [36mo.h.a.c.Version[0;39m - HCANN000001: Hibernate Commons Annotations {5.1.2.Final} 
+2021-12-20 19:15:04,509 [restartedMain] [36mc.z.h.HikariDataSource[0;39m - HikariPool-1 - Starting... 
+2021-12-20 19:15:04,767 [restartedMain] [36mc.z.h.HikariDataSource[0;39m - HikariPool-1 - Start completed. 
+2021-12-20 19:15:04,792 [restartedMain] [36mo.h.d.Dialect[0;39m - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect 
+2021-12-20 19:15:06,598 [restartedMain] [36mo.h.e.t.j.p.i.JtaPlatformInitiator[0;39m - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+2021-12-20 19:15:06,610 [restartedMain] [36mo.s.o.j.LocalContainerEntityManagerFactoryBean[0;39m - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2021-12-20 19:15:07,772 [restartedMain] [36mo.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration[0;39m - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+2021-12-20 19:15:08,194 [restartedMain] [36mo.s.b.d.a.OptionalLiveReloadServer[0;39m - LiveReload server is running on port 35729 
+2021-12-20 19:15:08,268 [restartedMain] [36mo.s.b.w.e.t.TomcatWebServer[0;39m - Tomcat started on port(s): 8082 (http) with context path '' 
+2021-12-20 19:15:08,285 [restartedMain] [36mc.t.l.LteApplication[0;39m - Started LteApplication in 8.577 seconds (JVM running for 10.239) 
+2021-12-20 19:15:22,608 [http-nio-8082-exec-1] [36mo.a.c.c.C.[.[.[/][0;39m - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2021-12-20 19:15:22,609 [http-nio-8082-exec-1] [36mo.s.w.s.DispatcherServlet[0;39m - Initializing Servlet 'dispatcherServlet' 
+2021-12-20 19:15:22,612 [http-nio-8082-exec-1] [36mo.s.w.s.DispatcherServlet[0;39m - Completed initialization in 3 ms 
+2021-12-20 19:15:23,104 [http-nio-8082-exec-1] [36mc.t.l.s.CalendarDateServiceImpl[0;39m - Id Not Found Try Another Id!!! 
+2021-12-20 19:15:23,105 [http-nio-8082-exec-1] [36mc.t.l.s.CalendarDateServiceImpl[0;39m - Something Went Wrong Please Try Again After Some Time!!! 
+2021-12-20 19:15:23,189 [http-nio-8082-exec-1] [36mo.s.w.s.m.m.a.ExceptionHandlerExceptionResolver[0;39m - Resolved [com.tyss.lte.exception.IdNotFoundException: Id Not Found Try Another Id!!!] 
+2021-12-20 19:15:33,111 [http-nio-8082-exec-4] [36mc.t.l.c.CalendarDateController[0;39m - Data Added Successfully!!! 
+2021-12-20 19:16:40,773 [http-nio-8082-exec-6] [36mc.t.l.s.CalendarDateServiceImpl[0;39m - Id Not Found Try Another Id!!! 
+2021-12-20 19:16:40,774 [http-nio-8082-exec-6] [36mc.t.l.s.CalendarDateServiceImpl[0;39m - Something Went Wrong Please Try Again After Some Time!!! 
+2021-12-20 19:16:40,777 [http-nio-8082-exec-6] [36mo.s.w.s.m.m.a.ExceptionHandlerExceptionResolver[0;39m - Resolved [com.tyss.lte.exception.IdNotFoundException: Id Not Found Try Another Id!!!] 
+2021-12-20 19:16:53,948 [http-nio-8082-exec-8] [36mc.t.l.s.CalendarDateServiceImpl[0;39m - Something Went Wrong Please Try Again After Some Time!!! 
+2021-12-20 19:16:53,950 [http-nio-8082-exec-8] [36mo.s.w.s.m.m.a.ExceptionHandlerExceptionResolver[0;39m - Resolved [com.tyss.lte.exception.CalendarDateException: Something Went Wrong Please Try Again After Some Time!!!] 
+2021-12-20 19:17:45,818 [http-nio-8082-exec-10] [36mc.t.l.s.CalendarDateServiceImpl[0;39m - Something Went Wrong Please Try Again After Some Time!!! 
+2021-12-20 19:17:45,820 [http-nio-8082-exec-10] [36mo.s.w.s.m.m.a.ExceptionHandlerExceptionResolver[0;39m - Resolved [com.tyss.lte.exception.CalendarDateException: Something Went Wrong Please Try Again After Some Time!!!] 
+2021-12-20 19:18:20,606 [http-nio-8082-exec-1] [36mc.t.l.c.CalendarDateController[0;39m - Data Added Successfully!!! 
+2021-12-20 19:20:03,940 [http-nio-8082-exec-4] [36mc.t.l.s.CalendarDateServiceImpl[0;39m - Date Not Found Try Another Date!!! 
+2021-12-20 19:20:03,943 [http-nio-8082-exec-4] [36mo.s.w.s.m.m.a.ExceptionHandlerExceptionResolver[0;39m - Resolved [com.tyss.lte.exception.DateNotFoundException: Date Not Found Try Another Date!!!] 
+2021-12-20 19:20:28,001 [http-nio-8082-exec-6] [36mc.t.l.s.CalendarDateServiceImpl[0;39m - Something Went Wrong Please Try Again After Some Time!!! 
+2021-12-20 19:20:28,004 [http-nio-8082-exec-6] [36mo.s.w.s.m.m.a.ExceptionHandlerExceptionResolver[0;39m - Resolved [com.tyss.lte.exception.CalendarDateException: Something Went Wrong Please Try Again After Some Time!!!] 
+2021-12-20 19:21:52,267 [http-nio-8082-exec-7] [36mc.t.l.s.CalendarDateServiceImpl[0;39m - Something Went Wrong Please Try Again After Some Time!!! 
+2021-12-20 19:21:52,269 [http-nio-8082-exec-7] [36mo.s.w.s.m.m.a.ExceptionHandlerExceptionResolver[0;39m - Resolved [com.tyss.lte.exception.CalendarDateException: Something Went Wrong Please Try Again After Some Time!!!] 
+2021-12-20 19:22:50,910 [http-nio-8082-exec-9] [36mc.t.l.s.CalendarDateServiceImpl[0;39m - Something Went Wrong Please Try Again After Some Time!!! 
+2021-12-20 19:22:50,912 [http-nio-8082-exec-9] [36mo.s.w.s.m.m.a.ExceptionHandlerExceptionResolver[0;39m - Resolved [com.tyss.lte.exception.CalendarDateException: Something Went Wrong Please Try Again After Some Time!!!] 
+2021-12-20 19:23:36,929 [http-nio-8082-exec-1] [36mc.t.l.s.CalendarDateServiceImpl[0;39m - Something Went Wrong Please Try Again After Some Time!!! 
+2021-12-20 19:23:36,932 [http-nio-8082-exec-1] [36mo.s.w.s.m.m.a.ExceptionHandlerExceptionResolver[0;39m - Resolved [com.tyss.lte.exception.CalendarDateException: Something Went Wrong Please Try Again After Some Time!!!] 
+2021-12-20 19:24:33,077 [Thread-5] [36mo.s.o.j.LocalContainerEntityManagerFactoryBean[0;39m - Closing JPA EntityManagerFactory for persistence unit 'default' 
+2021-12-20 19:24:33,087 [Thread-5] [36mc.z.h.HikariDataSource[0;39m - HikariPool-1 - Shutdown initiated... 
+2021-12-20 19:24:33,107 [Thread-5] [36mc.z.h.HikariDataSource[0;39m - HikariPool-1 - Shutdown completed. 
+2021-12-20 19:24:33,373 [restartedMain] [36mc.t.l.LteApplication[0;39m - Starting LteApplication using Java 15 on DESKTOP-7G56MR9 with PID 13280 (E:\Technoelevate Project\lte\target\classes started by Sahid in E:\Technoelevate Project\lte) 
+2021-12-20 19:24:33,374 [restartedMain] [36mc.t.l.LteApplication[0;39m - No active profile set, falling back to default profiles: default 
+2021-12-20 19:24:33,803 [restartedMain] [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+2021-12-20 19:24:33,861 [restartedMain] [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - Finished Spring Data repository scanning in 57 ms. Found 10 JPA repository interfaces. 
+2021-12-20 19:24:34,057 [restartedMain] [36mo.s.b.w.e.t.TomcatWebServer[0;39m - Tomcat initialized with port(s): 8082 (http) 
+2021-12-20 19:24:34,059 [restartedMain] [36mo.a.c.c.StandardService[0;39m - Starting service [Tomcat] 
+2021-12-20 19:24:34,059 [restartedMain] [36mo.a.c.c.StandardEngine[0;39m - Starting Servlet engine: [Apache Tomcat/9.0.55] 
+2021-12-20 19:24:34,100 [restartedMain] [36mo.a.c.c.C.[.[.[/][0;39m - Initializing Spring embedded WebApplicationContext 
+2021-12-20 19:24:34,100 [restartedMain] [36mo.s.b.w.s.c.ServletWebServerApplicationContext[0;39m - Root WebApplicationContext: initialization completed in 721 ms 
+2021-12-20 19:24:34,161 [restartedMain] [36mo.h.j.i.u.LogHelper[0;39m - HHH000204: Processing PersistenceUnitInfo [name: default] 
+2021-12-20 19:24:34,168 [restartedMain] [36mc.z.h.HikariDataSource[0;39m - HikariPool-2 - Starting... 
+2021-12-20 19:24:34,175 [restartedMain] [36mc.z.h.HikariDataSource[0;39m - HikariPool-2 - Start completed. 
+2021-12-20 19:24:34,176 [restartedMain] [36mo.h.d.Dialect[0;39m - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect 
+2021-12-20 19:24:34,862 [restartedMain] [36mo.h.e.t.j.p.i.JtaPlatformInitiator[0;39m - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+2021-12-20 19:24:34,863 [restartedMain] [36mo.s.o.j.LocalContainerEntityManagerFactoryBean[0;39m - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2021-12-20 19:24:35,400 [restartedMain] [36mo.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration[0;39m - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+2021-12-20 19:24:35,534 [restartedMain] [36mo.s.b.d.a.OptionalLiveReloadServer[0;39m - LiveReload server is running on port 35729 
+2021-12-20 19:24:35,553 [restartedMain] [36mo.s.b.w.e.t.TomcatWebServer[0;39m - Tomcat started on port(s): 8082 (http) with context path '' 
+2021-12-20 19:24:35,560 [restartedMain] [36mc.t.l.LteApplication[0;39m - Started LteApplication in 2.263 seconds (JVM running for 577.514) 
+2021-12-20 19:24:35,563 [restartedMain] [36mo.s.b.d.a.ConditionEvaluationDeltaLoggingListener[0;39m - Condition evaluation unchanged 
+2021-12-20 19:24:41,622 [http-nio-8082-exec-2] [36mo.a.c.c.C.[.[.[/][0;39m - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2021-12-20 19:24:41,625 [http-nio-8082-exec-2] [36mo.s.w.s.DispatcherServlet[0;39m - Initializing Servlet 'dispatcherServlet' 
+2021-12-20 19:24:41,630 [http-nio-8082-exec-2] [36mo.s.w.s.DispatcherServlet[0;39m - Completed initialization in 4 ms 
+2021-12-20 19:24:41,806 [http-nio-8082-exec-2] [36mc.t.l.s.CalendarDateServiceImpl[0;39m - Something Went Wrong Please Try Again After Some Time!!! 
+2021-12-20 19:24:41,813 [http-nio-8082-exec-2] [36mo.s.w.s.m.m.a.ExceptionHandlerExceptionResolver[0;39m - Resolved [com.tyss.lte.exception.CalendarDateException: Something Went Wrong Please Try Again After Some Time!!!] 
+2021-12-20 19:25:37,169 [Thread-7] [36mo.s.o.j.LocalContainerEntityManagerFactoryBean[0;39m - Closing JPA EntityManagerFactory for persistence unit 'default' 
+2021-12-20 19:25:37,170 [Thread-7] [36mc.z.h.HikariDataSource[0;39m - HikariPool-2 - Shutdown initiated... 
+2021-12-20 19:25:37,174 [Thread-7] [36mc.z.h.HikariDataSource[0;39m - HikariPool-2 - Shutdown completed. 
+2021-12-20 19:25:37,346 [restartedMain] [36mc.t.l.LteApplication[0;39m - Starting LteApplication using Java 15 on DESKTOP-7G56MR9 with PID 13280 (E:\Technoelevate Project\lte\target\classes started by Sahid in E:\Technoelevate Project\lte) 
+2021-12-20 19:25:37,346 [restartedMain] [36mc.t.l.LteApplication[0;39m - No active profile set, falling back to default profiles: default 
+2021-12-20 19:25:37,702 [restartedMain] [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+2021-12-20 19:25:37,755 [restartedMain] [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - Finished Spring Data repository scanning in 52 ms. Found 10 JPA repository interfaces. 
+2021-12-20 19:25:37,919 [restartedMain] [36mo.s.b.w.e.t.TomcatWebServer[0;39m - Tomcat initialized with port(s): 8082 (http) 
+2021-12-20 19:25:37,921 [restartedMain] [36mo.a.c.c.StandardService[0;39m - Starting service [Tomcat] 
+2021-12-20 19:25:37,922 [restartedMain] [36mo.a.c.c.StandardEngine[0;39m - Starting Servlet engine: [Apache Tomcat/9.0.55] 
+2021-12-20 19:25:37,974 [restartedMain] [36mo.a.c.c.C.[.[.[/][0;39m - Initializing Spring embedded WebApplicationContext 
+2021-12-20 19:25:37,974 [restartedMain] [36mo.s.b.w.s.c.ServletWebServerApplicationContext[0;39m - Root WebApplicationContext: initialization completed in 624 ms 
+2021-12-20 19:25:38,026 [restartedMain] [36mo.h.j.i.u.LogHelper[0;39m - HHH000204: Processing PersistenceUnitInfo [name: default] 
+2021-12-20 19:25:38,036 [restartedMain] [36mc.z.h.HikariDataSource[0;39m - HikariPool-3 - Starting... 
+2021-12-20 19:25:38,043 [restartedMain] [36mc.z.h.HikariDataSource[0;39m - HikariPool-3 - Start completed. 
+2021-12-20 19:25:38,043 [restartedMain] [36mo.h.d.Dialect[0;39m - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect 
+2021-12-20 19:25:38,665 [restartedMain] [36mo.h.e.t.j.p.i.JtaPlatformInitiator[0;39m - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+2021-12-20 19:25:38,666 [restartedMain] [36mo.s.o.j.LocalContainerEntityManagerFactoryBean[0;39m - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2021-12-20 19:25:39,131 [restartedMain] [36mo.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration[0;39m - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+2021-12-20 19:25:39,319 [restartedMain] [36mo.s.b.d.a.OptionalLiveReloadServer[0;39m - LiveReload server is running on port 35729 
+2021-12-20 19:25:39,352 [restartedMain] [36mo.s.b.w.e.t.TomcatWebServer[0;39m - Tomcat started on port(s): 8082 (http) with context path '' 
+2021-12-20 19:25:39,361 [restartedMain] [36mc.t.l.LteApplication[0;39m - Started LteApplication in 2.064 seconds (JVM running for 641.315) 
+2021-12-20 19:25:39,365 [restartedMain] [36mo.s.b.d.a.ConditionEvaluationDeltaLoggingListener[0;39m - Condition evaluation unchanged 
+2021-12-20 19:25:43,209 [http-nio-8082-exec-2] [36mo.a.c.c.C.[.[.[/][0;39m - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2021-12-20 19:25:43,209 [http-nio-8082-exec-2] [36mo.s.w.s.DispatcherServlet[0;39m - Initializing Servlet 'dispatcherServlet' 
+2021-12-20 19:25:43,211 [http-nio-8082-exec-2] [36mo.s.w.s.DispatcherServlet[0;39m - Completed initialization in 2 ms 
+2021-12-20 19:25:43,263 [http-nio-8082-exec-2] [36mc.t.l.s.CalendarDateServiceImpl[0;39m - Something Went Wrong Please Try Again After Some Time!!! 
+2021-12-20 19:25:43,268 [http-nio-8082-exec-2] [36mo.s.w.s.m.m.a.ExceptionHandlerExceptionResolver[0;39m - Resolved [com.tyss.lte.exception.CalendarDateException: Something Went Wrong Please Try Again After Some Time!!!] 
+2021-12-20 19:26:54,294 [Thread-11] [36mo.s.o.j.LocalContainerEntityManagerFactoryBean[0;39m - Closing JPA EntityManagerFactory for persistence unit 'default' 
+2021-12-20 19:26:54,294 [Thread-11] [36mc.z.h.HikariDataSource[0;39m - HikariPool-3 - Shutdown initiated... 
+2021-12-20 19:26:54,297 [Thread-11] [36mc.z.h.HikariDataSource[0;39m - HikariPool-3 - Shutdown completed. 
+2021-12-20 19:26:54,430 [restartedMain] [36mc.t.l.LteApplication[0;39m - Starting LteApplication using Java 15 on DESKTOP-7G56MR9 with PID 13280 (E:\Technoelevate Project\lte\target\classes started by Sahid in E:\Technoelevate Project\lte) 
+2021-12-20 19:26:54,430 [restartedMain] [36mc.t.l.LteApplication[0;39m - No active profile set, falling back to default profiles: default 
+2021-12-20 19:26:54,802 [restartedMain] [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+2021-12-20 19:26:54,854 [restartedMain] [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - Finished Spring Data repository scanning in 51 ms. Found 10 JPA repository interfaces. 
+2021-12-20 19:26:55,039 [restartedMain] [36mo.s.b.w.e.t.TomcatWebServer[0;39m - Tomcat initialized with port(s): 8082 (http) 
+2021-12-20 19:26:55,041 [restartedMain] [36mo.a.c.c.StandardService[0;39m - Starting service [Tomcat] 
+2021-12-20 19:26:55,042 [restartedMain] [36mo.a.c.c.StandardEngine[0;39m - Starting Servlet engine: [Apache Tomcat/9.0.55] 
+2021-12-20 19:26:55,082 [restartedMain] [36mo.a.c.c.C.[.[.[/][0;39m - Initializing Spring embedded WebApplicationContext 
+2021-12-20 19:26:55,084 [restartedMain] [36mo.s.b.w.s.c.ServletWebServerApplicationContext[0;39m - Root WebApplicationContext: initialization completed in 651 ms 
+2021-12-20 19:26:55,145 [restartedMain] [36mo.h.j.i.u.LogHelper[0;39m - HHH000204: Processing PersistenceUnitInfo [name: default] 
+2021-12-20 19:26:55,154 [restartedMain] [36mc.z.h.HikariDataSource[0;39m - HikariPool-4 - Starting... 
+2021-12-20 19:26:55,161 [restartedMain] [36mc.z.h.HikariDataSource[0;39m - HikariPool-4 - Start completed. 
+2021-12-20 19:26:55,161 [restartedMain] [36mo.h.d.Dialect[0;39m - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect 
+2021-12-20 19:26:55,845 [restartedMain] [36mo.h.e.t.j.p.i.JtaPlatformInitiator[0;39m - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+2021-12-20 19:26:55,846 [restartedMain] [36mo.s.o.j.LocalContainerEntityManagerFactoryBean[0;39m - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2021-12-20 19:26:56,439 [restartedMain] [36mo.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration[0;39m - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+2021-12-20 19:26:56,628 [restartedMain] [36mo.s.b.d.a.OptionalLiveReloadServer[0;39m - LiveReload server is running on port 35729 
+2021-12-20 19:26:56,644 [restartedMain] [36mo.s.b.w.e.t.TomcatWebServer[0;39m - Tomcat started on port(s): 8082 (http) with context path '' 
+2021-12-20 19:26:56,649 [restartedMain] [36mc.t.l.LteApplication[0;39m - Started LteApplication in 2.264 seconds (JVM running for 718.603) 
+2021-12-20 19:26:56,651 [restartedMain] [36mo.s.b.d.a.ConditionEvaluationDeltaLoggingListener[0;39m - Condition evaluation unchanged 
+2021-12-20 19:26:59,133 [http-nio-8082-exec-2] [36mo.a.c.c.C.[.[.[/][0;39m - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2021-12-20 19:26:59,134 [http-nio-8082-exec-2] [36mo.s.w.s.DispatcherServlet[0;39m - Initializing Servlet 'dispatcherServlet' 
+2021-12-20 19:26:59,141 [http-nio-8082-exec-2] [36mo.s.w.s.DispatcherServlet[0;39m - Completed initialization in 5 ms 
+2021-12-20 19:26:59,189 [http-nio-8082-exec-2] [36mc.t.l.s.CalendarDateServiceImpl[0;39m - Something Went Wrong Please Try Again After Some Time!!! 
+2021-12-20 19:26:59,195 [http-nio-8082-exec-2] [36mo.s.w.s.m.m.a.ExceptionHandlerExceptionResolver[0;39m - Resolved [com.tyss.lte.exception.CalendarDateException: Something Went Wrong Please Try Again After Some Time!!!] 
+2021-12-20 19:29:13,797 [http-nio-8082-exec-4] [36mc.t.l.s.CalendarDateServiceImpl[0;39m - Something Went Wrong Please Try Again After Some Time!!! 
+2021-12-20 19:29:13,800 [http-nio-8082-exec-4] [36mo.s.w.s.m.m.a.ExceptionHandlerExceptionResolver[0;39m - Resolved [com.tyss.lte.exception.CalendarDateException: Something Went Wrong Please Try Again After Some Time!!!] 
+2021-12-20 19:29:30,861 [http-nio-8082-exec-6] [36mc.t.l.s.CalendarDateServiceImpl[0;39m - Something Went Wrong Please Try Again After Some Time!!! 
+2021-12-20 19:29:30,863 [http-nio-8082-exec-6] [36mo.s.w.s.m.m.a.ExceptionHandlerExceptionResolver[0;39m - Resolved [com.tyss.lte.exception.CalendarDateException: Something Went Wrong Please Try Again After Some Time!!!] 
+2021-12-20 19:29:59,147 [http-nio-8082-exec-8] [36mc.t.l.s.CalendarDateServiceImpl[0;39m - Something Went Wrong Please Try Again After Some Time!!! 
+2021-12-20 19:29:59,150 [http-nio-8082-exec-8] [36mo.s.w.s.m.m.a.ExceptionHandlerExceptionResolver[0;39m - Resolved [com.tyss.lte.exception.CalendarDateException: Something Went Wrong Please Try Again After Some Time!!!] 
+2021-12-20 19:33:23,550 [Thread-15] [36mo.s.o.j.LocalContainerEntityManagerFactoryBean[0;39m - Closing JPA EntityManagerFactory for persistence unit 'default' 
+2021-12-20 19:33:23,552 [Thread-15] [36mc.z.h.HikariDataSource[0;39m - HikariPool-4 - Shutdown initiated... 
+2021-12-20 19:33:23,558 [Thread-15] [36mc.z.h.HikariDataSource[0;39m - HikariPool-4 - Shutdown completed. 
+2021-12-20 19:33:23,739 [restartedMain] [36mc.t.l.LteApplication[0;39m - Starting LteApplication using Java 15 on DESKTOP-7G56MR9 with PID 13280 (E:\Technoelevate Project\lte\target\classes started by Sahid in E:\Technoelevate Project\lte) 
+2021-12-20 19:33:23,740 [restartedMain] [36mc.t.l.LteApplication[0;39m - No active profile set, falling back to default profiles: default 
+2021-12-20 19:33:24,041 [restartedMain] [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+2021-12-20 19:33:24,090 [restartedMain] [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - Finished Spring Data repository scanning in 48 ms. Found 10 JPA repository interfaces. 
+2021-12-20 19:33:24,240 [restartedMain] [36mo.s.b.w.e.t.TomcatWebServer[0;39m - Tomcat initialized with port(s): 8082 (http) 
+2021-12-20 19:33:24,241 [restartedMain] [36mo.a.c.c.StandardService[0;39m - Starting service [Tomcat] 
+2021-12-20 19:33:24,241 [restartedMain] [36mo.a.c.c.StandardEngine[0;39m - Starting Servlet engine: [Apache Tomcat/9.0.55] 
+2021-12-20 19:33:24,275 [restartedMain] [36mo.a.c.c.C.[.[.[/][0;39m - Initializing Spring embedded WebApplicationContext 
+2021-12-20 19:33:24,275 [restartedMain] [36mo.s.b.w.s.c.ServletWebServerApplicationContext[0;39m - Root WebApplicationContext: initialization completed in 532 ms 
+2021-12-20 19:33:24,331 [restartedMain] [36mo.h.j.i.u.LogHelper[0;39m - HHH000204: Processing PersistenceUnitInfo [name: default] 
+2021-12-20 19:33:24,337 [restartedMain] [36mc.z.h.HikariDataSource[0;39m - HikariPool-5 - Starting... 
+2021-12-20 19:33:24,342 [restartedMain] [36mc.z.h.HikariDataSource[0;39m - HikariPool-5 - Start completed. 
+2021-12-20 19:33:24,342 [restartedMain] [36mo.h.d.Dialect[0;39m - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect 
+2021-12-20 19:33:24,920 [restartedMain] [36mo.h.e.t.j.p.i.JtaPlatformInitiator[0;39m - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+2021-12-20 19:33:24,921 [restartedMain] [36mo.s.o.j.LocalContainerEntityManagerFactoryBean[0;39m - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2021-12-20 19:33:25,346 [restartedMain] [36mo.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration[0;39m - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+2021-12-20 19:33:25,443 [restartedMain] [36mo.s.b.d.a.OptionalLiveReloadServer[0;39m - LiveReload server is running on port 35729 
+2021-12-20 19:33:25,459 [restartedMain] [36mo.s.b.w.e.t.TomcatWebServer[0;39m - Tomcat started on port(s): 8082 (http) with context path '' 
+2021-12-20 19:33:25,465 [restartedMain] [36mc.t.l.LteApplication[0;39m - Started LteApplication in 1.774 seconds (JVM running for 1107.419) 
+2021-12-20 19:33:25,467 [restartedMain] [36mo.s.b.d.a.ConditionEvaluationDeltaLoggingListener[0;39m - Condition evaluation unchanged 
+2021-12-20 19:34:38,390 [http-nio-8082-exec-2] [36mo.a.c.c.C.[.[.[/][0;39m - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2021-12-20 19:34:38,390 [http-nio-8082-exec-2] [36mo.s.w.s.DispatcherServlet[0;39m - Initializing Servlet 'dispatcherServlet' 
+2021-12-20 19:34:38,393 [http-nio-8082-exec-2] [36mo.s.w.s.DispatcherServlet[0;39m - Completed initialization in 2 ms 
+2021-12-20 19:34:38,451 [http-nio-8082-exec-2] [36mc.t.l.s.CalendarDateServiceImpl[0;39m - Something Went Wrong Please Try Again After Some Time!!! 
+2021-12-20 19:34:38,460 [http-nio-8082-exec-2] [36mo.s.w.s.m.m.a.ExceptionHandlerExceptionResolver[0;39m - Resolved [com.tyss.lte.exception.CalendarDateException: Something Went Wrong Please Try Again After Some Time!!!] 
+2021-12-20 19:34:46,975 [http-nio-8082-exec-4] [36mc.t.l.s.CalendarDateServiceImpl[0;39m - Something Went Wrong Please Try Again After Some Time!!! 
+2021-12-20 19:34:46,977 [http-nio-8082-exec-4] [36mo.s.w.s.m.m.a.ExceptionHandlerExceptionResolver[0;39m - Resolved [com.tyss.lte.exception.CalendarDateException: Something Went Wrong Please Try Again After Some Time!!!] 
+2021-12-20 19:35:03,643 [http-nio-8082-exec-6] [36mc.t.l.s.CalendarDateServiceImpl[0;39m - Something Went Wrong Please Try Again After Some Time!!! 
+2021-12-20 19:35:03,645 [http-nio-8082-exec-6] [36mo.s.w.s.m.m.a.ExceptionHandlerExceptionResolver[0;39m - Resolved [com.tyss.lte.exception.CalendarDateException: Something Went Wrong Please Try Again After Some Time!!!] 
+2021-12-20 19:35:22,682 [http-nio-8082-exec-8] [36mc.t.l.c.CalendarDateController[0;39m - Data Added Successfully!!! 
+2021-12-20 19:35:43,278 [http-nio-8082-exec-9] [36mc.t.l.c.CalendarDateController[0;39m - Data Fetch Successfully!!! 
+2021-12-20 19:36:20,595 [http-nio-8082-exec-10] [36mc.t.l.c.CalendarDateController[0;39m - Data Added Successfully!!! 
+2021-12-20 19:36:33,330 [http-nio-8082-exec-1] [36mc.t.l.c.CalendarDateController[0;39m - Data Fetch Successfully!!! 
+2021-12-20 19:36:48,643 [http-nio-8082-exec-2] [36mc.t.l.s.CalendarDateServiceImpl[0;39m - Date Not Found Try Another Date!!! 
+2021-12-20 19:36:48,646 [http-nio-8082-exec-2] [36mo.s.w.s.m.m.a.ExceptionHandlerExceptionResolver[0;39m - Resolved [com.tyss.lte.exception.DateNotFoundException: Date Not Found Try Another Date!!!] 
+2021-12-20 19:37:01,496 [http-nio-8082-exec-4] [36mc.t.l.c.CalendarDateController[0;39m - Data Added Successfully!!! 
+2021-12-20 19:37:08,159 [http-nio-8082-exec-5] [36mc.t.l.c.CalendarDateController[0;39m - Data Fetch Successfully!!! 
+2021-12-20 19:37:23,793 [http-nio-8082-exec-6] [36mc.t.l.c.CalendarDateController[0;39m - Data Remove Successfully!!! 
+2021-12-20 21:10:47,419 [HikariPool-5 housekeeper] [36mc.z.h.p.HikariPool[0;39m - HikariPool-5 - Thread starvation or clock leap detected (housekeeper delta=1h31m52s962ms574µs500ns). 
+2021-12-20 21:45:21,312 [Thread-19] [36mo.s.o.j.LocalContainerEntityManagerFactoryBean[0;39m - Closing JPA EntityManagerFactory for persistence unit 'default' 
+2021-12-20 21:45:21,362 [Thread-19] [36mc.z.h.HikariDataSource[0;39m - HikariPool-5 - Shutdown initiated... 
+2021-12-20 21:45:21,389 [Thread-19] [36mc.z.h.HikariDataSource[0;39m - HikariPool-5 - Shutdown completed. 
+2021-12-20 21:45:23,596 [restartedMain] [36mc.t.l.LteApplication[0;39m - Starting LteApplication using Java 15 on DESKTOP-7G56MR9 with PID 13280 (E:\Technoelevate Project\lte\target\classes started by Sahid in E:\Technoelevate Project\lte) 
+2021-12-20 21:45:23,596 [restartedMain] [36mc.t.l.LteApplication[0;39m - No active profile set, falling back to default profiles: default 
+2021-12-20 21:45:24,616 [restartedMain] [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+2021-12-20 21:45:24,728 [restartedMain] [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - Finished Spring Data repository scanning in 110 ms. Found 10 JPA repository interfaces. 
+2021-12-20 21:45:25,492 [restartedMain] [36mo.s.b.w.e.t.TomcatWebServer[0;39m - Tomcat initialized with port(s): 8082 (http) 
+2021-12-20 21:45:25,499 [restartedMain] [36mo.a.c.c.StandardService[0;39m - Starting service [Tomcat] 
+2021-12-20 21:45:25,500 [restartedMain] [36mo.a.c.c.StandardEngine[0;39m - Starting Servlet engine: [Apache Tomcat/9.0.55] 
+2021-12-20 21:45:25,559 [restartedMain] [36mo.a.c.c.C.[.[.[/][0;39m - Initializing Spring embedded WebApplicationContext 
+2021-12-20 21:45:25,559 [restartedMain] [36mo.s.b.w.s.c.ServletWebServerApplicationContext[0;39m - Root WebApplicationContext: initialization completed in 1954 ms 
+2021-12-20 21:45:25,651 [restartedMain] [36mo.h.j.i.u.LogHelper[0;39m - HHH000204: Processing PersistenceUnitInfo [name: default] 
+2021-12-20 21:45:25,671 [restartedMain] [36mc.z.h.HikariDataSource[0;39m - HikariPool-6 - Starting... 
+2021-12-20 21:45:25,679 [restartedMain] [36mc.z.h.HikariDataSource[0;39m - HikariPool-6 - Start completed. 
+2021-12-20 21:45:25,680 [restartedMain] [36mo.h.d.Dialect[0;39m - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect 
+2021-12-20 21:45:27,052 [restartedMain] [36mo.h.e.t.j.p.i.JtaPlatformInitiator[0;39m - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+2021-12-20 21:45:27,054 [restartedMain] [36mo.s.o.j.LocalContainerEntityManagerFactoryBean[0;39m - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2021-12-20 21:45:29,238 [restartedMain] [36mo.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration[0;39m - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+2021-12-20 21:45:29,583 [restartedMain] [36mo.s.b.d.a.OptionalLiveReloadServer[0;39m - LiveReload server is running on port 35729 
+2021-12-20 21:45:29,616 [restartedMain] [36mo.s.b.w.e.t.TomcatWebServer[0;39m - Tomcat started on port(s): 8082 (http) with context path '' 
+2021-12-20 21:45:29,625 [restartedMain] [36mc.t.l.LteApplication[0;39m - Started LteApplication in 6.401 seconds (JVM running for 9031.587) 
+2021-12-20 21:45:29,628 [restartedMain] [36mo.s.b.d.a.ConditionEvaluationDeltaLoggingListener[0;39m - Condition evaluation unchanged 
+2021-12-20 21:45:34,921 [http-nio-8082-exec-2] [36mo.a.c.c.C.[.[.[/][0;39m - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2021-12-20 21:45:34,922 [http-nio-8082-exec-2] [36mo.s.w.s.DispatcherServlet[0;39m - Initializing Servlet 'dispatcherServlet' 
+2021-12-20 21:45:34,925 [http-nio-8082-exec-2] [36mo.s.w.s.DispatcherServlet[0;39m - Completed initialization in 2 ms 
+2021-12-20 21:45:34,977 [http-nio-8082-exec-2] [36mc.t.l.c.TimeSheetController[0;39m - Data Fetch Successfully!!! 
+2021-12-20 21:48:41,368 [Thread-23] [36mo.s.o.j.LocalContainerEntityManagerFactoryBean[0;39m - Closing JPA EntityManagerFactory for persistence unit 'default' 
+2021-12-20 21:48:41,417 [Thread-23] [36mc.z.h.HikariDataSource[0;39m - HikariPool-6 - Shutdown initiated... 
+2021-12-20 21:48:41,430 [Thread-23] [36mc.z.h.HikariDataSource[0;39m - HikariPool-6 - Shutdown completed. 
+2021-12-20 21:48:41,904 [restartedMain] [36mc.t.l.LteApplication[0;39m - Starting LteApplication using Java 15 on DESKTOP-7G56MR9 with PID 13280 (E:\Technoelevate Project\lte\target\classes started by Sahid in E:\Technoelevate Project\lte) 
+2021-12-20 21:48:41,904 [restartedMain] [36mc.t.l.LteApplication[0;39m - No active profile set, falling back to default profiles: default 
+2021-12-20 21:48:42,661 [restartedMain] [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+2021-12-20 21:48:42,734 [restartedMain] [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - Finished Spring Data repository scanning in 70 ms. Found 10 JPA repository interfaces. 
+2021-12-20 21:48:43,004 [restartedMain] [36mo.s.b.w.e.t.TomcatWebServer[0;39m - Tomcat initialized with port(s): 8082 (http) 
+2021-12-20 21:48:43,005 [restartedMain] [36mo.a.c.c.StandardService[0;39m - Starting service [Tomcat] 
+2021-12-20 21:48:43,006 [restartedMain] [36mo.a.c.c.StandardEngine[0;39m - Starting Servlet engine: [Apache Tomcat/9.0.55] 
+2021-12-20 21:48:43,043 [restartedMain] [36mo.a.c.c.C.[.[.[/][0;39m - Initializing Spring embedded WebApplicationContext 
+2021-12-20 21:48:43,043 [restartedMain] [36mo.s.b.w.s.c.ServletWebServerApplicationContext[0;39m - Root WebApplicationContext: initialization completed in 1135 ms 
+2021-12-20 21:48:43,119 [restartedMain] [36mo.h.j.i.u.LogHelper[0;39m - HHH000204: Processing PersistenceUnitInfo [name: default] 
+2021-12-20 21:48:43,132 [restartedMain] [36mc.z.h.HikariDataSource[0;39m - HikariPool-7 - Starting... 
+2021-12-20 21:48:43,141 [restartedMain] [36mc.z.h.HikariDataSource[0;39m - HikariPool-7 - Start completed. 
+2021-12-20 21:48:43,141 [restartedMain] [36mo.h.d.Dialect[0;39m - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect 
+2021-12-20 21:48:43,927 [restartedMain] [36mo.h.e.t.j.p.i.JtaPlatformInitiator[0;39m - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+2021-12-20 21:48:43,928 [restartedMain] [36mo.s.o.j.LocalContainerEntityManagerFactoryBean[0;39m - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2021-12-20 21:48:44,568 [restartedMain] [36mo.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration[0;39m - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+2021-12-20 21:48:44,710 [restartedMain] [36mo.s.b.d.a.OptionalLiveReloadServer[0;39m - LiveReload server is running on port 35729 
+2021-12-20 21:48:44,725 [restartedMain] [36mo.s.b.w.e.t.TomcatWebServer[0;39m - Tomcat started on port(s): 8082 (http) with context path '' 
+2021-12-20 21:48:44,731 [restartedMain] [36mc.t.l.LteApplication[0;39m - Started LteApplication in 2.94 seconds (JVM running for 9226.693) 
+2021-12-20 21:48:44,734 [restartedMain] [36mo.s.b.d.a.ConditionEvaluationDeltaLoggingListener[0;39m - Condition evaluation unchanged 
+2021-12-20 21:49:01,597 [http-nio-8082-exec-2] [36mo.a.c.c.C.[.[.[/][0;39m - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2021-12-20 21:49:01,597 [http-nio-8082-exec-2] [36mo.s.w.s.DispatcherServlet[0;39m - Initializing Servlet 'dispatcherServlet' 
+2021-12-20 21:49:01,601 [http-nio-8082-exec-2] [36mo.s.w.s.DispatcherServlet[0;39m - Completed initialization in 3 ms 
+2021-12-20 21:49:01,687 [http-nio-8082-exec-2] [36mc.t.l.s.TimeSheetServiceImpl[0;39m - Time Sheet Id Not Found Try Another Id!!! 
+2021-12-20 21:49:01,687 [http-nio-8082-exec-2] [36mc.t.l.s.TimeSheetServiceImpl[0;39m - Time Sheet Id Not Found Try Another Id!!! 
+2021-12-20 21:49:01,696 [http-nio-8082-exec-2] [36mo.s.w.s.m.m.a.ExceptionHandlerExceptionResolver[0;39m - Resolved [com.tyss.lte.exception.MonthNotFoundException: Time Sheet Id Not Found Try Another Id!!!] 
+2021-12-20 21:50:10,807 [http-nio-8082-exec-4] [36mc.t.l.s.TimeSheetServiceImpl[0;39m - Time Sheet Id Not Found Try Another Id!!! 
+2021-12-20 21:50:10,808 [http-nio-8082-exec-4] [36mc.t.l.s.TimeSheetServiceImpl[0;39m - Time Sheet Id Not Found Try Another Id!!! 
+2021-12-20 21:50:10,810 [http-nio-8082-exec-4] [36mo.s.w.s.m.m.a.ExceptionHandlerExceptionResolver[0;39m - Resolved [com.tyss.lte.exception.MonthNotFoundException: Time Sheet Id Not Found Try Another Id!!!] 
+2021-12-20 21:51:50,624 [http-nio-8082-exec-6] [36mc.t.l.c.TimeSheetController[0;39m - Data Remove Successfully!!! 
+2021-12-20 21:54:34,687 [Thread-27] [36mo.s.o.j.LocalContainerEntityManagerFactoryBean[0;39m - Closing JPA EntityManagerFactory for persistence unit 'default' 
+2021-12-20 21:54:34,690 [Thread-27] [36mc.z.h.HikariDataSource[0;39m - HikariPool-7 - Shutdown initiated... 
+2021-12-20 21:54:34,694 [Thread-27] [36mc.z.h.HikariDataSource[0;39m - HikariPool-7 - Shutdown completed. 
+2021-12-20 21:54:34,918 [restartedMain] [36mc.t.l.LteApplication[0;39m - Starting LteApplication using Java 15 on DESKTOP-7G56MR9 with PID 13280 (E:\Technoelevate Project\lte\target\classes started by Sahid in E:\Technoelevate Project\lte) 
+2021-12-20 21:54:34,918 [restartedMain] [36mc.t.l.LteApplication[0;39m - No active profile set, falling back to default profiles: default 
+2021-12-20 21:54:35,431 [restartedMain] [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+2021-12-20 21:54:35,499 [restartedMain] [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - Finished Spring Data repository scanning in 67 ms. Found 10 JPA repository interfaces. 
+2021-12-20 21:54:35,707 [restartedMain] [36mo.s.b.w.e.t.TomcatWebServer[0;39m - Tomcat initialized with port(s): 8082 (http) 
+2021-12-20 21:54:35,709 [restartedMain] [36mo.a.c.c.StandardService[0;39m - Starting service [Tomcat] 
+2021-12-20 21:54:35,710 [restartedMain] [36mo.a.c.c.StandardEngine[0;39m - Starting Servlet engine: [Apache Tomcat/9.0.55] 
+2021-12-20 21:54:35,772 [restartedMain] [36mo.a.c.c.C.[.[.[/][0;39m - Initializing Spring embedded WebApplicationContext 
+2021-12-20 21:54:35,773 [restartedMain] [36mo.s.b.w.s.c.ServletWebServerApplicationContext[0;39m - Root WebApplicationContext: initialization completed in 849 ms 
+2021-12-20 21:54:35,843 [restartedMain] [36mo.h.j.i.u.LogHelper[0;39m - HHH000204: Processing PersistenceUnitInfo [name: default] 
+2021-12-20 21:54:35,851 [restartedMain] [36mc.z.h.HikariDataSource[0;39m - HikariPool-8 - Starting... 
+2021-12-20 21:54:35,858 [restartedMain] [36mc.z.h.HikariDataSource[0;39m - HikariPool-8 - Start completed. 
+2021-12-20 21:54:35,859 [restartedMain] [36mo.h.d.Dialect[0;39m - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect 
+2021-12-20 21:54:36,552 [restartedMain] [36mo.h.e.t.j.p.i.JtaPlatformInitiator[0;39m - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+2021-12-20 21:54:36,553 [restartedMain] [36mo.s.o.j.LocalContainerEntityManagerFactoryBean[0;39m - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2021-12-20 21:54:37,145 [restartedMain] [36mo.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration[0;39m - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+2021-12-20 21:54:37,274 [restartedMain] [36mo.s.b.d.a.OptionalLiveReloadServer[0;39m - LiveReload server is running on port 35729 
+2021-12-20 21:54:37,294 [restartedMain] [36mo.s.b.w.e.t.TomcatWebServer[0;39m - Tomcat started on port(s): 8082 (http) with context path '' 
+2021-12-20 21:54:37,300 [restartedMain] [36mc.t.l.LteApplication[0;39m - Started LteApplication in 2.445 seconds (JVM running for 9579.261) 
+2021-12-20 21:54:37,303 [restartedMain] [36mo.s.b.d.a.ConditionEvaluationDeltaLoggingListener[0;39m - Condition evaluation unchanged 
+2021-12-20 21:55:04,559 [http-nio-8082-exec-2] [36mo.a.c.c.C.[.[.[/][0;39m - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2021-12-20 21:55:04,560 [http-nio-8082-exec-2] [36mo.s.w.s.DispatcherServlet[0;39m - Initializing Servlet 'dispatcherServlet' 
+2021-12-20 21:55:04,563 [http-nio-8082-exec-2] [36mo.s.w.s.DispatcherServlet[0;39m - Completed initialization in 3 ms 
+2021-12-20 21:55:04,663 [http-nio-8082-exec-2] [36mc.t.l.c.TimeSheetController[0;39m - Data Remove Successfully!!! 
+2021-12-20 21:56:16,297 [Thread-31] [36mo.s.o.j.LocalContainerEntityManagerFactoryBean[0;39m - Closing JPA EntityManagerFactory for persistence unit 'default' 
+2021-12-20 21:56:16,298 [Thread-31] [36mc.z.h.HikariDataSource[0;39m - HikariPool-8 - Shutdown initiated... 
+2021-12-20 21:56:16,304 [Thread-31] [36mc.z.h.HikariDataSource[0;39m - HikariPool-8 - Shutdown completed. 
+2021-12-20 21:56:16,518 [restartedMain] [36mc.t.l.LteApplication[0;39m - Starting LteApplication using Java 15 on DESKTOP-7G56MR9 with PID 13280 (E:\Technoelevate Project\lte\target\classes started by Sahid in E:\Technoelevate Project\lte) 
+2021-12-20 21:56:16,518 [restartedMain] [36mc.t.l.LteApplication[0;39m - No active profile set, falling back to default profiles: default 
+2021-12-20 21:56:16,966 [restartedMain] [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+2021-12-20 21:56:17,034 [restartedMain] [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - Finished Spring Data repository scanning in 67 ms. Found 10 JPA repository interfaces. 
+2021-12-20 21:56:17,267 [restartedMain] [36mo.s.b.w.e.t.TomcatWebServer[0;39m - Tomcat initialized with port(s): 8082 (http) 
+2021-12-20 21:56:17,268 [restartedMain] [36mo.a.c.c.StandardService[0;39m - Starting service [Tomcat] 
+2021-12-20 21:56:17,269 [restartedMain] [36mo.a.c.c.StandardEngine[0;39m - Starting Servlet engine: [Apache Tomcat/9.0.55] 
+2021-12-20 21:56:17,318 [restartedMain] [36mo.a.c.c.C.[.[.[/][0;39m - Initializing Spring embedded WebApplicationContext 
+2021-12-20 21:56:17,318 [restartedMain] [36mo.s.b.w.s.c.ServletWebServerApplicationContext[0;39m - Root WebApplicationContext: initialization completed in 797 ms 
+2021-12-20 21:56:17,401 [restartedMain] [36mo.h.j.i.u.LogHelper[0;39m - HHH000204: Processing PersistenceUnitInfo [name: default] 
+2021-12-20 21:56:17,414 [restartedMain] [36mc.z.h.HikariDataSource[0;39m - HikariPool-9 - Starting... 
+2021-12-20 21:56:17,421 [restartedMain] [36mc.z.h.HikariDataSource[0;39m - HikariPool-9 - Start completed. 
+2021-12-20 21:56:17,421 [restartedMain] [36mo.h.d.Dialect[0;39m - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect 
+2021-12-20 21:56:19,142 [restartedMain] [36mo.h.e.t.j.p.i.JtaPlatformInitiator[0;39m - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+2021-12-20 21:56:19,142 [restartedMain] [36mo.s.o.j.LocalContainerEntityManagerFactoryBean[0;39m - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2021-12-20 21:56:19,972 [restartedMain] [36mo.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration[0;39m - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+2021-12-20 21:56:20,146 [restartedMain] [36mo.s.b.d.a.OptionalLiveReloadServer[0;39m - LiveReload server is running on port 35729 
+2021-12-20 21:56:20,178 [restartedMain] [36mo.s.b.w.e.t.TomcatWebServer[0;39m - Tomcat started on port(s): 8082 (http) with context path '' 
+2021-12-20 21:56:20,225 [restartedMain] [36mc.t.l.LteApplication[0;39m - Started LteApplication in 3.757 seconds (JVM running for 9682.187) 
+2021-12-20 21:56:20,229 [restartedMain] [36mo.s.b.d.a.ConditionEvaluationDeltaLoggingListener[0;39m - Condition evaluation unchanged 
+2021-12-20 21:56:50,348 [Thread-35] [36mo.s.o.j.LocalContainerEntityManagerFactoryBean[0;39m - Closing JPA EntityManagerFactory for persistence unit 'default' 
+2021-12-20 21:56:50,349 [Thread-35] [36mc.z.h.HikariDataSource[0;39m - HikariPool-9 - Shutdown initiated... 
+2021-12-20 21:56:50,353 [Thread-35] [36mc.z.h.HikariDataSource[0;39m - HikariPool-9 - Shutdown completed. 
+2021-12-20 21:56:50,546 [restartedMain] [36mc.t.l.LteApplication[0;39m - Starting LteApplication using Java 15 on DESKTOP-7G56MR9 with PID 13280 (E:\Technoelevate Project\lte\target\classes started by Sahid in E:\Technoelevate Project\lte) 
+2021-12-20 21:56:50,546 [restartedMain] [36mc.t.l.LteApplication[0;39m - No active profile set, falling back to default profiles: default 
+2021-12-20 21:56:51,227 [restartedMain] [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+2021-12-20 21:56:51,313 [restartedMain] [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - Finished Spring Data repository scanning in 85 ms. Found 10 JPA repository interfaces. 
+2021-12-20 21:56:51,544 [restartedMain] [36mo.s.b.w.e.t.TomcatWebServer[0;39m - Tomcat initialized with port(s): 8082 (http) 
+2021-12-20 21:56:51,546 [restartedMain] [36mo.a.c.c.StandardService[0;39m - Starting service [Tomcat] 
+2021-12-20 21:56:51,547 [restartedMain] [36mo.a.c.c.StandardEngine[0;39m - Starting Servlet engine: [Apache Tomcat/9.0.55] 
+2021-12-20 21:56:51,643 [restartedMain] [36mo.a.c.c.C.[.[.[/][0;39m - Initializing Spring embedded WebApplicationContext 
+2021-12-20 21:56:51,644 [restartedMain] [36mo.s.b.w.s.c.ServletWebServerApplicationContext[0;39m - Root WebApplicationContext: initialization completed in 1095 ms 
+2021-12-20 21:56:51,748 [restartedMain] [36mo.h.j.i.u.LogHelper[0;39m - HHH000204: Processing PersistenceUnitInfo [name: default] 
+2021-12-20 21:56:51,757 [restartedMain] [36mc.z.h.HikariDataSource[0;39m - HikariPool-10 - Starting... 
+2021-12-20 21:56:51,763 [restartedMain] [36mc.z.h.HikariDataSource[0;39m - HikariPool-10 - Start completed. 
+2021-12-20 21:56:51,763 [restartedMain] [36mo.h.d.Dialect[0;39m - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect 
+2021-12-20 21:56:52,611 [restartedMain] [36mo.h.e.t.j.p.i.JtaPlatformInitiator[0;39m - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+2021-12-20 21:56:52,612 [restartedMain] [36mo.s.o.j.LocalContainerEntityManagerFactoryBean[0;39m - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2021-12-20 21:56:53,391 [restartedMain] [36mo.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration[0;39m - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+2021-12-20 21:56:53,566 [restartedMain] [36mo.s.b.d.a.OptionalLiveReloadServer[0;39m - LiveReload server is running on port 35729 
+2021-12-20 21:56:53,595 [restartedMain] [36mo.s.b.w.e.t.TomcatWebServer[0;39m - Tomcat started on port(s): 8082 (http) with context path '' 
+2021-12-20 21:56:53,602 [restartedMain] [36mc.t.l.LteApplication[0;39m - Started LteApplication in 3.124 seconds (JVM running for 9715.563) 
+2021-12-20 21:56:53,604 [restartedMain] [36mo.s.b.d.a.ConditionEvaluationDeltaLoggingListener[0;39m - Condition evaluation unchanged 
+2021-12-20 21:56:59,081 [http-nio-8082-exec-2] [36mo.a.c.c.C.[.[.[/][0;39m - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2021-12-20 21:56:59,088 [http-nio-8082-exec-2] [36mo.s.w.s.DispatcherServlet[0;39m - Initializing Servlet 'dispatcherServlet' 
+2021-12-20 21:56:59,097 [http-nio-8082-exec-2] [36mo.s.w.s.DispatcherServlet[0;39m - Completed initialization in 9 ms 
+2021-12-20 21:56:59,302 [http-nio-8082-exec-2] [36mc.t.l.c.TimeSheetController[0;39m - Data Added Successfully!!! 
+2021-12-20 21:57:02,149 [http-nio-8082-exec-3] [36mc.t.l.c.TimeSheetController[0;39m - Data Added Successfully!!! 
+2021-12-20 21:57:14,321 [http-nio-8082-exec-4] [36mc.t.l.c.TimeSheetController[0;39m - Data Added Successfully!!! 
+2021-12-20 21:58:10,959 [http-nio-8082-exec-5] [36mc.t.l.c.CalendarDateController[0;39m - Data Added Successfully!!! 
+2021-12-20 21:59:28,792 [http-nio-8082-exec-8] [36mc.t.l.s.CalendarDateServiceImpl[0;39m - Id Not Found Try Another Id!!! 
+2021-12-20 21:59:28,792 [http-nio-8082-exec-8] [36mc.t.l.s.CalendarDateServiceImpl[0;39m - Something Went Wrong Please Try Again After Some Time!!! 
+2021-12-20 21:59:28,796 [http-nio-8082-exec-8] [36mo.s.w.s.m.m.a.ExceptionHandlerExceptionResolver[0;39m - Resolved [com.tyss.lte.exception.IdNotFoundException: Id Not Found Try Another Id!!!] 
+2021-12-20 21:59:35,053 [http-nio-8082-exec-10] [36mc.t.l.c.CalendarDateController[0;39m - Data Added Successfully!!! 
+2021-12-20 21:59:45,568 [http-nio-8082-exec-1] [36mc.t.l.c.CalendarDateController[0;39m - Data Added Successfully!!! 
+2021-12-20 21:59:53,261 [http-nio-8082-exec-2] [36mc.t.l.c.CalendarDateController[0;39m - Data Added Successfully!!! 
+2021-12-20 22:00:01,227 [http-nio-8082-exec-3] [36mc.t.l.c.CalendarDateController[0;39m - Data Added Successfully!!! 
+2021-12-20 22:00:07,140 [http-nio-8082-exec-4] [36mc.t.l.c.CalendarDateController[0;39m - Data Added Successfully!!! 
+2021-12-20 22:00:24,340 [http-nio-8082-exec-5] [36mc.t.l.c.CalendarDateController[0;39m - Data Fetch Successfully!!! 
+2021-12-20 22:00:46,134 [http-nio-8082-exec-6] [36mc.t.l.s.CalendarDateServiceImpl[0;39m - Id Not Found Try Another Id!!! 
+2021-12-20 22:00:46,134 [http-nio-8082-exec-6] [36mc.t.l.s.CalendarDateServiceImpl[0;39m - Something Went Wrong Please Try Again After Some Time!!! 
+2021-12-20 22:00:46,136 [http-nio-8082-exec-6] [36mo.s.w.s.m.m.a.ExceptionHandlerExceptionResolver[0;39m - Resolved [com.tyss.lte.exception.IdNotFoundException: Id Not Found Try Another Id!!!] 
+2021-12-20 22:01:53,515 [http-nio-8082-exec-8] [36mc.t.l.c.CalendarDateController[0;39m - Data Added Successfully!!! 
+2021-12-20 22:02:56,500 [http-nio-8082-exec-10] [36mc.t.l.c.CalendarDateController[0;39m - Data Remove Successfully!!! 
+2021-12-20 22:03:50,769 [RMI TCP Connection(84)-127.0.0.1] [36mo.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin[0;39m - Application shutdown requested. 
+2021-12-20 22:03:50,798 [RMI TCP Connection(84)-127.0.0.1] [36mo.s.o.j.LocalContainerEntityManagerFactoryBean[0;39m - Closing JPA EntityManagerFactory for persistence unit 'default' 
+2021-12-20 22:03:50,800 [RMI TCP Connection(84)-127.0.0.1] [36mc.z.h.HikariDataSource[0;39m - HikariPool-10 - Shutdown initiated... 
+2021-12-20 22:03:50,804 [RMI TCP Connection(84)-127.0.0.1] [36mc.z.h.HikariDataSource[0;39m - HikariPool-10 - Shutdown completed. 
+2021-12-21 09:12:07,591 [restartedMain] [36mc.t.l.LteApplication[0;39m - Starting LteApplication using Java 15 on DESKTOP-7G56MR9 with PID 7484 (E:\Technoelevate Project\lte\target\classes started by Sahid in E:\Technoelevate Project\lte) 
+2021-12-21 09:12:07,594 [restartedMain] [36mc.t.l.LteApplication[0;39m - No active profile set, falling back to default profiles: default 
+2021-12-21 09:12:07,756 [restartedMain] [36mo.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[0;39m - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+2021-12-21 09:12:07,758 [restartedMain] [36mo.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[0;39m - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
+2021-12-21 09:12:09,269 [restartedMain] [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+2021-12-21 09:12:09,423 [restartedMain] [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - Finished Spring Data repository scanning in 139 ms. Found 10 JPA repository interfaces. 
+2021-12-21 09:12:10,440 [restartedMain] [36mo.s.b.w.e.t.TomcatWebServer[0;39m - Tomcat initialized with port(s): 8082 (http) 
+2021-12-21 09:12:10,462 [restartedMain] [36mo.a.c.c.StandardService[0;39m - Starting service [Tomcat] 
+2021-12-21 09:12:10,462 [restartedMain] [36mo.a.c.c.StandardEngine[0;39m - Starting Servlet engine: [Apache Tomcat/9.0.55] 
+2021-12-21 09:12:10,676 [restartedMain] [36mo.a.c.c.C.[.[.[/][0;39m - Initializing Spring embedded WebApplicationContext 
+2021-12-21 09:12:10,683 [restartedMain] [36mo.s.b.w.s.c.ServletWebServerApplicationContext[0;39m - Root WebApplicationContext: initialization completed in 2922 ms 
+2021-12-21 09:12:10,986 [restartedMain] [36mo.h.j.i.u.LogHelper[0;39m - HHH000204: Processing PersistenceUnitInfo [name: default] 
+2021-12-21 09:12:11,128 [restartedMain] [36mo.h.Version[0;39m - HHH000412: Hibernate ORM core version 5.6.1.Final 
+2021-12-21 09:12:11,578 [restartedMain] [36mo.h.a.c.Version[0;39m - HCANN000001: Hibernate Commons Annotations {5.1.2.Final} 
+2021-12-21 09:12:11,832 [restartedMain] [36mc.z.h.HikariDataSource[0;39m - HikariPool-1 - Starting... 
+2021-12-21 09:12:12,111 [restartedMain] [36mc.z.h.HikariDataSource[0;39m - HikariPool-1 - Start completed. 
+2021-12-21 09:12:12,138 [restartedMain] [36mo.h.d.Dialect[0;39m - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect 
+2021-12-21 09:12:14,014 [restartedMain] [36mo.h.e.t.j.p.i.JtaPlatformInitiator[0;39m - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+2021-12-21 09:12:14,029 [restartedMain] [36mo.s.o.j.LocalContainerEntityManagerFactoryBean[0;39m - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2021-12-21 09:12:15,617 [restartedMain] [36mo.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration[0;39m - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+2021-12-21 09:12:16,087 [restartedMain] [36mo.s.b.d.a.OptionalLiveReloadServer[0;39m - LiveReload server is running on port 35729 
+2021-12-21 09:12:16,153 [restartedMain] [36mo.s.b.w.e.t.TomcatWebServer[0;39m - Tomcat started on port(s): 8082 (http) with context path '' 
+2021-12-21 09:12:16,173 [restartedMain] [36mc.t.l.LteApplication[0;39m - Started LteApplication in 10.857 seconds (JVM running for 12.45) 
+2021-12-21 09:12:35,632 [http-nio-8082-exec-1] [36mo.a.c.c.C.[.[.[/][0;39m - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2021-12-21 09:12:35,633 [http-nio-8082-exec-1] [36mo.s.w.s.DispatcherServlet[0;39m - Initializing Servlet 'dispatcherServlet' 
+2021-12-21 09:12:35,635 [http-nio-8082-exec-1] [36mo.s.w.s.DispatcherServlet[0;39m - Completed initialization in 2 ms 
+2021-12-21 09:12:36,031 [http-nio-8082-exec-1] [36mc.t.l.c.CalendarDateController[0;39m - Data Fetch Successfully!!! 
+2021-12-21 09:12:47,230 [http-nio-8082-exec-3] [36mc.t.l.s.CalendarDateServiceImpl[0;39m - Date Not Found Try Another Date!!! 
+2021-12-21 09:12:47,241 [http-nio-8082-exec-3] [36mo.s.w.s.m.m.a.ExceptionHandlerExceptionResolver[0;39m - Resolved [com.tyss.lte.exception.DateNotFoundException: Date Not Found Try Another Date!!!] 
+2021-12-21 09:12:57,209 [http-nio-8082-exec-5] [36mc.t.l.s.CalendarDateServiceImpl[0;39m - Id Not Found Try Another Id!!! 
+2021-12-21 09:12:57,212 [http-nio-8082-exec-5] [36mo.s.w.s.m.m.a.ExceptionHandlerExceptionResolver[0;39m - Resolved [com.tyss.lte.exception.IdNotFoundException: Id Not Found Try Another Id!!!] 
+2021-12-21 09:15:11,561 [Thread-5] [36mo.s.o.j.LocalContainerEntityManagerFactoryBean[0;39m - Closing JPA EntityManagerFactory for persistence unit 'default' 
+2021-12-21 09:15:11,567 [Thread-5] [36mc.z.h.HikariDataSource[0;39m - HikariPool-1 - Shutdown initiated... 
+2021-12-21 09:15:11,584 [Thread-5] [36mc.z.h.HikariDataSource[0;39m - HikariPool-1 - Shutdown completed. 
+2021-12-21 09:15:11,766 [restartedMain] [36mc.t.l.LteApplication[0;39m - Starting LteApplication using Java 15 on DESKTOP-7G56MR9 with PID 7484 (E:\Technoelevate Project\lte\target\classes started by Sahid in E:\Technoelevate Project\lte) 
+2021-12-21 09:15:11,768 [restartedMain] [36mc.t.l.LteApplication[0;39m - No active profile set, falling back to default profiles: default 
+2021-12-21 09:15:12,367 [restartedMain] [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+2021-12-21 09:15:12,417 [restartedMain] [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - Finished Spring Data repository scanning in 50 ms. Found 10 JPA repository interfaces. 
+2021-12-21 09:15:12,608 [restartedMain] [36mo.s.b.w.e.t.TomcatWebServer[0;39m - Tomcat initialized with port(s): 8082 (http) 
+2021-12-21 09:15:12,610 [restartedMain] [36mo.a.c.c.StandardService[0;39m - Starting service [Tomcat] 
+2021-12-21 09:15:12,611 [restartedMain] [36mo.a.c.c.StandardEngine[0;39m - Starting Servlet engine: [Apache Tomcat/9.0.55] 
+2021-12-21 09:15:12,656 [restartedMain] [36mo.a.c.c.C.[.[.[/][0;39m - Initializing Spring embedded WebApplicationContext 
+2021-12-21 09:15:12,656 [restartedMain] [36mo.s.b.w.s.c.ServletWebServerApplicationContext[0;39m - Root WebApplicationContext: initialization completed in 879 ms 
+2021-12-21 09:15:12,738 [restartedMain] [36mo.h.j.i.u.LogHelper[0;39m - HHH000204: Processing PersistenceUnitInfo [name: default] 
+2021-12-21 09:15:12,746 [restartedMain] [36mc.z.h.HikariDataSource[0;39m - HikariPool-2 - Starting... 
+2021-12-21 09:15:12,753 [restartedMain] [36mc.z.h.HikariDataSource[0;39m - HikariPool-2 - Start completed. 
+2021-12-21 09:15:12,755 [restartedMain] [36mo.h.d.Dialect[0;39m - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect 
+2021-12-21 09:15:13,499 [restartedMain] [36mo.h.e.t.j.p.i.JtaPlatformInitiator[0;39m - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+2021-12-21 09:15:13,500 [restartedMain] [36mo.s.o.j.LocalContainerEntityManagerFactoryBean[0;39m - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2021-12-21 09:15:14,085 [restartedMain] [36mo.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration[0;39m - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+2021-12-21 09:15:14,226 [restartedMain] [36mo.s.b.d.a.OptionalLiveReloadServer[0;39m - LiveReload server is running on port 35729 
+2021-12-21 09:15:14,245 [restartedMain] [36mo.s.b.w.e.t.TomcatWebServer[0;39m - Tomcat started on port(s): 8082 (http) with context path '' 
+2021-12-21 09:15:14,255 [restartedMain] [36mc.t.l.LteApplication[0;39m - Started LteApplication in 2.558 seconds (JVM running for 190.532) 
+2021-12-21 09:15:14,258 [restartedMain] [36mo.s.b.d.a.ConditionEvaluationDeltaLoggingListener[0;39m - Condition evaluation unchanged 
+2021-12-21 09:15:20,260 [RMI TCP Connection(8)-127.0.0.1] [36mo.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin[0;39m - Application shutdown requested. 
+2021-12-21 09:15:20,281 [RMI TCP Connection(8)-127.0.0.1] [36mo.s.o.j.LocalContainerEntityManagerFactoryBean[0;39m - Closing JPA EntityManagerFactory for persistence unit 'default' 
+2021-12-21 09:15:20,282 [RMI TCP Connection(8)-127.0.0.1] [36mc.z.h.HikariDataSource[0;39m - HikariPool-2 - Shutdown initiated... 
+2021-12-21 09:15:20,286 [RMI TCP Connection(8)-127.0.0.1] [36mc.z.h.HikariDataSource[0;39m - HikariPool-2 - Shutdown completed. 
+2021-12-21 09:15:53,631 [restartedMain] [36mc.t.l.LteApplication[0;39m - Starting LteApplication using Java 15 on DESKTOP-7G56MR9 with PID 7916 (E:\Technoelevate Project\lte\target\classes started by Sahid in E:\Technoelevate Project\lte) 
+2021-12-21 09:15:53,634 [restartedMain] [36mc.t.l.LteApplication[0;39m - No active profile set, falling back to default profiles: default 
+2021-12-21 09:15:53,781 [restartedMain] [36mo.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[0;39m - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+2021-12-21 09:15:53,781 [restartedMain] [36mo.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[0;39m - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
+2021-12-21 09:15:55,101 [restartedMain] [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+2021-12-21 09:15:55,284 [restartedMain] [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - Finished Spring Data repository scanning in 169 ms. Found 10 JPA repository interfaces. 
+2021-12-21 09:15:56,277 [restartedMain] [36mo.s.b.w.e.t.TomcatWebServer[0;39m - Tomcat initialized with port(s): 8082 (http) 
+2021-12-21 09:15:56,295 [restartedMain] [36mo.a.c.c.StandardService[0;39m - Starting service [Tomcat] 
+2021-12-21 09:15:56,296 [restartedMain] [36mo.a.c.c.StandardEngine[0;39m - Starting Servlet engine: [Apache Tomcat/9.0.55] 
+2021-12-21 09:15:56,473 [restartedMain] [36mo.a.c.c.C.[.[.[/][0;39m - Initializing Spring embedded WebApplicationContext 
+2021-12-21 09:15:56,474 [restartedMain] [36mo.s.b.w.s.c.ServletWebServerApplicationContext[0;39m - Root WebApplicationContext: initialization completed in 2688 ms 
+2021-12-21 09:15:56,752 [restartedMain] [36mo.h.j.i.u.LogHelper[0;39m - HHH000204: Processing PersistenceUnitInfo [name: default] 
+2021-12-21 09:15:56,861 [restartedMain] [36mo.h.Version[0;39m - HHH000412: Hibernate ORM core version 5.6.1.Final 
+2021-12-21 09:15:57,181 [restartedMain] [36mo.h.a.c.Version[0;39m - HCANN000001: Hibernate Commons Annotations {5.1.2.Final} 
+2021-12-21 09:15:57,373 [restartedMain] [36mc.z.h.HikariDataSource[0;39m - HikariPool-1 - Starting... 
+2021-12-21 09:15:58,639 [restartedMain] [36mc.z.h.p.HikariPool[0;39m - HikariPool-1 - Exception during pool initialization. 
+java.sql.SQLSyntaxErrorException: Unknown database 'lte'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:828)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:448)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:364)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:476)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:561)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:181)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:68)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:35)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:101)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:237)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+	at org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory.injectServices(DefaultIdentifierGeneratorFactory.java:178)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.injectDependencies(AbstractServiceRegistryImpl.java:286)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:243)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:175)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:127)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1460)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1494)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1154)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:908)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:730)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:412)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:302)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1290)
+	at com.tyss.lte.LteApplication.main(LteApplication.java:13)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+2021-12-21 09:15:58,652 [restartedMain] [36mo.h.e.j.e.i.JdbcEnvironmentInitiator[0;39m - HHH000342: Could not obtain connection to query metadata 
+java.sql.SQLSyntaxErrorException: Unknown database 'lte'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:828)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:448)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:364)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:476)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:561)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:181)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:68)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:35)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:101)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:237)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+	at org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory.injectServices(DefaultIdentifierGeneratorFactory.java:178)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.injectDependencies(AbstractServiceRegistryImpl.java:286)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:243)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:175)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:127)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1460)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1494)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1154)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:908)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:730)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:412)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:302)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1290)
+	at com.tyss.lte.LteApplication.main(LteApplication.java:13)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+2021-12-21 09:15:58,706 [restartedMain] [36mo.h.d.Dialect[0;39m - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect 
+2021-12-21 09:16:00,244 [restartedMain] [36mc.z.h.HikariDataSource[0;39m - HikariPool-1 - Starting... 
+2021-12-21 09:16:01,250 [restartedMain] [36mc.z.h.p.HikariPool[0;39m - HikariPool-1 - Exception during pool initialization. 
+java.sql.SQLSyntaxErrorException: Unknown database 'lte'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:828)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:448)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:364)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:476)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:561)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:181)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection(DdlTransactionIsolatorNonJtaImpl.java:44)
+	at org.hibernate.tool.schema.internal.exec.ImprovedExtractionContextImpl.getJdbcConnection(ImprovedExtractionContextImpl.java:60)
+	at org.hibernate.tool.schema.internal.exec.ImprovedExtractionContextImpl.getJdbcDatabaseMetaData(ImprovedExtractionContextImpl.java:67)
+	at org.hibernate.tool.schema.extract.internal.InformationExtractorJdbcDatabaseMetaDataImpl.processTableResultSet(InformationExtractorJdbcDatabaseMetaDataImpl.java:64)
+	at org.hibernate.tool.schema.extract.internal.AbstractInformationExtractorImpl.getTables(AbstractInformationExtractorImpl.java:555)
+	at org.hibernate.tool.schema.extract.internal.DatabaseInformationImpl.getTablesInformation(DatabaseInformationImpl.java:119)
+	at org.hibernate.tool.schema.internal.GroupedSchemaMigratorImpl.performTablesMigration(GroupedSchemaMigratorImpl.java:65)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.performMigration(AbstractSchemaMigrator.java:208)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:115)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:192)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:81)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:327)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:471)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1498)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1154)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:908)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:730)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:412)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:302)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1290)
+	at com.tyss.lte.LteApplication.main(LteApplication.java:13)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+2021-12-21 09:16:01,252 [restartedMain] [36mo.h.e.j.s.SqlExceptionHelper[0;39m - SQL Error: 1049, SQLState: 42000 
+2021-12-21 09:16:01,252 [restartedMain] [36mo.h.e.j.s.SqlExceptionHelper[0;39m - Unknown database 'lte' 
+2021-12-21 09:16:01,260 [restartedMain] [36mo.s.o.j.LocalContainerEntityManagerFactoryBean[0;39m - Failed to initialize JPA EntityManagerFactory: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.SQLGrammarException: Unable to open JDBC Connection for DDL execution 
+2021-12-21 09:16:01,263 [restartedMain] [36mo.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext[0;39m - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.SQLGrammarException: Unable to open JDBC Connection for DDL execution 
+2021-12-21 09:16:01,268 [restartedMain] [36mo.a.c.c.StandardService[0;39m - Stopping service [Tomcat] 
+2021-12-21 09:16:01,294 [restartedMain] [36mo.s.b.a.l.ConditionEvaluationReportLoggingListener[0;39m - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled. 
+2021-12-21 09:16:01,341 [restartedMain] [36mo.s.b.SpringApplication[0;39m - Application run failed 
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.SQLGrammarException: Unable to open JDBC Connection for DDL execution
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1154)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:908)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:730)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:412)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:302)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1290)
+	at com.tyss.lte.LteApplication.main(LteApplication.java:13)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.SQLGrammarException: Unable to open JDBC Connection for DDL execution
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:421)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	... 21 common frames omitted
+Caused by: org.hibernate.exception.SQLGrammarException: Unable to open JDBC Connection for DDL execution
+	at org.hibernate.exception.internal.SQLExceptionTypeDelegate.convert(SQLExceptionTypeDelegate.java:63)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:37)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:113)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:99)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection(DdlTransactionIsolatorNonJtaImpl.java:71)
+	at org.hibernate.tool.schema.internal.exec.ImprovedExtractionContextImpl.getJdbcConnection(ImprovedExtractionContextImpl.java:60)
+	at org.hibernate.tool.schema.internal.exec.ImprovedExtractionContextImpl.getJdbcDatabaseMetaData(ImprovedExtractionContextImpl.java:67)
+	at org.hibernate.tool.schema.extract.internal.InformationExtractorJdbcDatabaseMetaDataImpl.processTableResultSet(InformationExtractorJdbcDatabaseMetaDataImpl.java:64)
+	at org.hibernate.tool.schema.extract.internal.AbstractInformationExtractorImpl.getTables(AbstractInformationExtractorImpl.java:555)
+	at org.hibernate.tool.schema.extract.internal.DatabaseInformationImpl.getTablesInformation(DatabaseInformationImpl.java:119)
+	at org.hibernate.tool.schema.internal.GroupedSchemaMigratorImpl.performTablesMigration(GroupedSchemaMigratorImpl.java:65)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.performMigration(AbstractSchemaMigrator.java:208)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:115)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:192)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:81)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:327)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:471)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1498)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	... 25 common frames omitted
+Caused by: java.sql.SQLSyntaxErrorException: Unknown database 'lte'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:828)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:448)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:364)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:476)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:561)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:181)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection(DdlTransactionIsolatorNonJtaImpl.java:44)
+	... 41 common frames omitted
+2021-12-21 09:16:26,754 [restartedMain] [36mc.t.l.LteApplication[0;39m - Starting LteApplication using Java 15 on DESKTOP-7G56MR9 with PID 1420 (E:\Technoelevate Project\lte\target\classes started by Sahid in E:\Technoelevate Project\lte) 
+2021-12-21 09:16:26,761 [restartedMain] [36mc.t.l.LteApplication[0;39m - No active profile set, falling back to default profiles: default 
+2021-12-21 09:16:26,995 [restartedMain] [36mo.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[0;39m - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+2021-12-21 09:16:26,997 [restartedMain] [36mo.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[0;39m - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
+2021-12-21 09:16:28,286 [restartedMain] [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+2021-12-21 09:16:28,462 [restartedMain] [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - Finished Spring Data repository scanning in 155 ms. Found 10 JPA repository interfaces. 
+2021-12-21 09:16:29,344 [restartedMain] [36mo.s.b.w.e.t.TomcatWebServer[0;39m - Tomcat initialized with port(s): 8082 (http) 
+2021-12-21 09:16:29,367 [restartedMain] [36mo.a.c.c.StandardService[0;39m - Starting service [Tomcat] 
+2021-12-21 09:16:29,368 [restartedMain] [36mo.a.c.c.StandardEngine[0;39m - Starting Servlet engine: [Apache Tomcat/9.0.55] 
+2021-12-21 09:16:29,591 [restartedMain] [36mo.a.c.c.C.[.[.[/][0;39m - Initializing Spring embedded WebApplicationContext 
+2021-12-21 09:16:29,592 [restartedMain] [36mo.s.b.w.s.c.ServletWebServerApplicationContext[0;39m - Root WebApplicationContext: initialization completed in 2594 ms 
+2021-12-21 09:16:29,852 [restartedMain] [36mo.h.j.i.u.LogHelper[0;39m - HHH000204: Processing PersistenceUnitInfo [name: default] 
+2021-12-21 09:16:29,950 [restartedMain] [36mo.h.Version[0;39m - HHH000412: Hibernate ORM core version 5.6.1.Final 
+2021-12-21 09:16:30,285 [restartedMain] [36mo.h.a.c.Version[0;39m - HCANN000001: Hibernate Commons Annotations {5.1.2.Final} 
+2021-12-21 09:16:30,481 [restartedMain] [36mc.z.h.HikariDataSource[0;39m - HikariPool-1 - Starting... 
+2021-12-21 09:16:30,795 [restartedMain] [36mc.z.h.HikariDataSource[0;39m - HikariPool-1 - Start completed. 
+2021-12-21 09:16:30,814 [restartedMain] [36mo.h.d.Dialect[0;39m - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect 
+2021-12-21 09:16:32,656 [restartedMain] [36mo.h.e.t.j.p.i.JtaPlatformInitiator[0;39m - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+2021-12-21 09:16:32,668 [restartedMain] [36mo.s.o.j.LocalContainerEntityManagerFactoryBean[0;39m - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2021-12-21 09:16:33,948 [restartedMain] [36mo.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration[0;39m - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+2021-12-21 09:16:34,429 [restartedMain] [36mo.s.b.d.a.OptionalLiveReloadServer[0;39m - LiveReload server is running on port 35729 
+2021-12-21 09:16:34,495 [restartedMain] [36mo.s.b.w.e.t.TomcatWebServer[0;39m - Tomcat started on port(s): 8082 (http) with context path '' 
+2021-12-21 09:16:34,515 [restartedMain] [36mc.t.l.LteApplication[0;39m - Started LteApplication in 8.466 seconds (JVM running for 10.084) 
+2021-12-21 09:16:59,469 [http-nio-8082-exec-2] [36mo.a.c.c.C.[.[.[/][0;39m - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2021-12-21 09:16:59,470 [http-nio-8082-exec-2] [36mo.s.w.s.DispatcherServlet[0;39m - Initializing Servlet 'dispatcherServlet' 
+2021-12-21 09:16:59,472 [http-nio-8082-exec-2] [36mo.s.w.s.DispatcherServlet[0;39m - Completed initialization in 2 ms 
+2021-12-21 09:17:00,194 [http-nio-8082-exec-2] [36mo.s.w.s.m.m.a.ExceptionHandlerExceptionResolver[0;39m - Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<?> com.tyss.lte.controller.TimeSheetController.addTimeSheet(com.tyss.lte.pojo.TimeSheetPojo) with 2 errors: [Field error in object 'timeSheetPojo' on field 'logoutTime': rejected value [11:00]; codes [PastOrPresent.timeSheetPojo.logoutTime,PastOrPresent.logoutTime,PastOrPresent.java.time.LocalTime,PastOrPresent]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [timeSheetPojo.logoutTime,logoutTime]; arguments []; default message [logoutTime]]; default message [Time Must Be Past Or Present Time!!!]] [Field error in object 'timeSheetPojo' on field 'loginTime': rejected value [10:00]; codes [PastOrPresent.timeSheetPojo.loginTime,PastOrPresent.loginTime,PastOrPresent.java.time.LocalTime,PastOrPresent]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [timeSheetPojo.loginTime,loginTime]; arguments []; default message [loginTime]]; default message [Time Must Be Past Or Present Time!!!]] ] 
+2021-12-21 09:17:29,435 [http-nio-8082-exec-4] [36mc.t.l.c.TimeSheetController[0;39m - Data Added Successfully!!! 
+2021-12-21 09:17:44,902 [http-nio-8082-exec-5] [36mc.t.l.c.TimeSheetController[0;39m - Data Added Successfully!!! 
+2021-12-21 09:18:04,612 [http-nio-8082-exec-6] [36mc.t.l.c.TimeSheetController[0;39m - Data Added Successfully!!! 
+2021-12-21 09:18:15,964 [http-nio-8082-exec-7] [36mc.t.l.c.TimeSheetController[0;39m - Data Added Successfully!!! 
+2021-12-21 09:19:09,140 [http-nio-8082-exec-8] [36mo.s.w.s.m.m.a.ExceptionHandlerExceptionResolver[0;39m - Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<?> com.tyss.lte.controller.CalendarDateController.addCalendarDate(com.tyss.lte.pojo.CalendarDatePojo) with 2 errors: [Field error in object 'calendarDatePojo' on field 'logoutTime': rejected value [11:00]; codes [PastOrPresent.calendarDatePojo.logoutTime,PastOrPresent.logoutTime,PastOrPresent.java.time.LocalTime,PastOrPresent]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [calendarDatePojo.logoutTime,logoutTime]; arguments []; default message [logoutTime]]; default message [Time Must Be Past Or Present Time!!!]] [Field error in object 'calendarDatePojo' on field 'loginTime': rejected value [10:00]; codes [PastOrPresent.calendarDatePojo.loginTime,PastOrPresent.loginTime,PastOrPresent.java.time.LocalTime,PastOrPresent]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [calendarDatePojo.loginTime,loginTime]; arguments []; default message [loginTime]]; default message [Time Must Be Past Or Present Time!!!]] ] 
+2021-12-21 09:19:23,452 [http-nio-8082-exec-9] [36mo.s.w.s.m.m.a.ExceptionHandlerExceptionResolver[0;39m - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.time.LocalTime` from String "8:00": Failed to deserialize java.time.LocalTime: (java.time.format.DateTimeParseException) Text '8:00' could not be parsed at index 0; nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `java.time.LocalTime` from String "8:00": Failed to deserialize java.time.LocalTime: (java.time.format.DateTimeParseException) Text '8:00' could not be parsed at index 0<LF> at [Source: (PushbackInputStream); line: 3, column: 22] (through reference chain: com.tyss.lte.pojo.CalendarDatePojo["loginTime"])] 
+2021-12-21 09:19:46,555 [http-nio-8082-exec-1] [36mc.t.l.c.CalendarDateController[0;39m - Data Added Successfully!!! 
+2021-12-21 09:19:52,498 [http-nio-8082-exec-3] [36mc.t.l.c.CalendarDateController[0;39m - Data Added Successfully!!! 
+2021-12-21 09:20:01,587 [http-nio-8082-exec-4] [36mc.t.l.c.CalendarDateController[0;39m - Data Added Successfully!!! 
+2021-12-21 09:20:03,086 [http-nio-8082-exec-5] [36mc.t.l.c.CalendarDateController[0;39m - Data Added Successfully!!! 
+2021-12-21 09:20:08,844 [http-nio-8082-exec-6] [36mc.t.l.c.CalendarDateController[0;39m - Data Added Successfully!!! 
+2021-12-21 09:20:10,611 [http-nio-8082-exec-7] [36mc.t.l.c.CalendarDateController[0;39m - Data Added Successfully!!! 
+2021-12-21 09:20:15,441 [http-nio-8082-exec-8] [36mc.t.l.c.CalendarDateController[0;39m - Data Added Successfully!!! 
+2021-12-21 09:20:17,393 [http-nio-8082-exec-10] [36mc.t.l.c.CalendarDateController[0;39m - Data Added Successfully!!! 
+2021-12-21 09:20:23,554 [http-nio-8082-exec-9] [36mc.t.l.c.TimeSheetController[0;39m - Data Fetch Successfully!!! 
+2021-12-21 09:21:41,636 [http-nio-8082-exec-1] [36mo.s.w.s.PageNotFound[0;39m - Request method 'GET' not supported 
+2021-12-21 09:21:41,639 [http-nio-8082-exec-1] [36mo.s.w.s.m.m.a.ExceptionHandlerExceptionResolver[0;39m - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported] 
+2021-12-21 09:23:40,414 [http-nio-8082-exec-5] [36mo.s.w.s.PageNotFound[0;39m - Request method 'GET' not supported 
+2021-12-21 09:23:40,415 [http-nio-8082-exec-5] [36mo.s.w.s.m.m.a.ExceptionHandlerExceptionResolver[0;39m - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported] 
+2021-12-21 09:24:20,010 [http-nio-8082-exec-6] [36mc.t.l.c.TimeSheetController[0;39m - Data Fetch Successfully!!! 
+2021-12-21 09:24:30,297 [Thread-5] [36mo.s.o.j.LocalContainerEntityManagerFactoryBean[0;39m - Closing JPA EntityManagerFactory for persistence unit 'default' 
+2021-12-21 09:24:30,302 [Thread-5] [36mc.z.h.HikariDataSource[0;39m - HikariPool-1 - Shutdown initiated... 
+2021-12-21 09:24:30,317 [Thread-5] [36mc.z.h.HikariDataSource[0;39m - HikariPool-1 - Shutdown completed. 
+2021-12-21 09:24:30,501 [restartedMain] [36mc.t.l.LteApplication[0;39m - Starting LteApplication using Java 15 on DESKTOP-7G56MR9 with PID 1420 (E:\Technoelevate Project\lte\target\classes started by Sahid in E:\Technoelevate Project\lte) 
+2021-12-21 09:24:30,502 [restartedMain] [36mc.t.l.LteApplication[0;39m - No active profile set, falling back to default profiles: default 
+2021-12-21 09:24:31,114 [restartedMain] [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+2021-12-21 09:24:31,168 [restartedMain] [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - Finished Spring Data repository scanning in 53 ms. Found 10 JPA repository interfaces. 
+2021-12-21 09:24:31,368 [restartedMain] [36mo.s.b.w.e.t.TomcatWebServer[0;39m - Tomcat initialized with port(s): 8082 (http) 
+2021-12-21 09:24:31,370 [restartedMain] [36mo.a.c.c.StandardService[0;39m - Starting service [Tomcat] 
+2021-12-21 09:24:31,370 [restartedMain] [36mo.a.c.c.StandardEngine[0;39m - Starting Servlet engine: [Apache Tomcat/9.0.55] 
+2021-12-21 09:24:31,411 [restartedMain] [36mo.a.c.c.C.[.[.[/][0;39m - Initializing Spring embedded WebApplicationContext 
+2021-12-21 09:24:31,411 [restartedMain] [36mo.s.b.w.s.c.ServletWebServerApplicationContext[0;39m - Root WebApplicationContext: initialization completed in 901 ms 
+2021-12-21 09:24:31,570 [restartedMain] [36mo.h.j.i.u.LogHelper[0;39m - HHH000204: Processing PersistenceUnitInfo [name: default] 
+2021-12-21 09:24:31,633 [restartedMain] [36mc.z.h.HikariDataSource[0;39m - HikariPool-2 - Starting... 
+2021-12-21 09:24:31,648 [restartedMain] [36mc.z.h.HikariDataSource[0;39m - HikariPool-2 - Start completed. 
+2021-12-21 09:24:31,649 [restartedMain] [36mo.h.d.Dialect[0;39m - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect 
+2021-12-21 09:24:32,633 [restartedMain] [36mo.h.e.t.j.p.i.JtaPlatformInitiator[0;39m - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+2021-12-21 09:24:32,633 [restartedMain] [36mo.s.o.j.LocalContainerEntityManagerFactoryBean[0;39m - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2021-12-21 09:24:33,304 [restartedMain] [36mo.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration[0;39m - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+2021-12-21 09:24:33,438 [restartedMain] [36mo.s.b.d.a.OptionalLiveReloadServer[0;39m - LiveReload server is running on port 35729 
+2021-12-21 09:24:33,456 [restartedMain] [36mo.s.b.w.e.t.TomcatWebServer[0;39m - Tomcat started on port(s): 8082 (http) with context path '' 
+2021-12-21 09:24:33,463 [restartedMain] [36mc.t.l.LteApplication[0;39m - Started LteApplication in 3.037 seconds (JVM running for 489.032) 
+2021-12-21 09:24:33,467 [restartedMain] [36mo.s.b.d.a.ConditionEvaluationDeltaLoggingListener[0;39m - Condition evaluation unchanged 
+2021-12-21 09:24:37,209 [http-nio-8082-exec-1] [36mo.a.c.c.C.[.[.[/][0;39m - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2021-12-21 09:24:37,210 [http-nio-8082-exec-1] [36mo.s.w.s.DispatcherServlet[0;39m - Initializing Servlet 'dispatcherServlet' 
+2021-12-21 09:24:37,212 [http-nio-8082-exec-1] [36mo.s.w.s.DispatcherServlet[0;39m - Completed initialization in 2 ms 
+2021-12-21 09:24:37,282 [http-nio-8082-exec-1] [36mc.t.l.c.TimeSheetController[0;39m - Data Fetch Successfully!!! 
+2021-12-21 09:25:00,625 [http-nio-8082-exec-3] [36mc.t.l.s.CalendarDateServiceImpl[0;39m - Date Not Found Try Another Date!!! 
+2021-12-21 09:25:00,633 [http-nio-8082-exec-3] [36mo.s.w.s.m.m.a.ExceptionHandlerExceptionResolver[0;39m - Resolved [com.tyss.lte.exception.DateNotFoundException: Date Not Found Try Another Date!!!] 
+2021-12-21 09:25:09,356 [http-nio-8082-exec-4] [36mc.t.l.c.CalendarDateController[0;39m - Data Fetch Successfully!!! 
+2021-12-21 09:25:39,871 [http-nio-8082-exec-6] [36mo.s.w.s.m.m.a.ExceptionHandlerExceptionResolver[0;39m - Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<?> com.tyss.lte.controller.CalendarDateController.addCalendarDate(com.tyss.lte.pojo.CalendarDatePojo) with 2 errors: [Field error in object 'calendarDatePojo' on field 'logoutTime': rejected value [20:00]; codes [PastOrPresent.calendarDatePojo.logoutTime,PastOrPresent.logoutTime,PastOrPresent.java.time.LocalTime,PastOrPresent]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [calendarDatePojo.logoutTime,logoutTime]; arguments []; default message [logoutTime]]; default message [Time Must Be Past Or Present Time!!!]] [Field error in object 'calendarDatePojo' on field 'loginTime': rejected value [10:00]; codes [PastOrPresent.calendarDatePojo.loginTime,PastOrPresent.loginTime,PastOrPresent.java.time.LocalTime,PastOrPresent]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [calendarDatePojo.loginTime,loginTime]; arguments []; default message [loginTime]]; default message [Time Must Be Past Or Present Time!!!]] ] 
+2021-12-21 09:26:02,835 [http-nio-8082-exec-8] [36mc.t.l.s.CalendarDateServiceImpl[0;39m - Id Not Found Try Another Id!!! 
+2021-12-21 09:26:02,840 [http-nio-8082-exec-8] [36mo.s.w.s.m.m.a.ExceptionHandlerExceptionResolver[0;39m - Resolved [com.tyss.lte.exception.IdNotFoundException: Id Not Found Try Another Id!!!] 
+2021-12-21 09:26:24,534 [RMI TCP Connection(13)-127.0.0.1] [36mo.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin[0;39m - Application shutdown requested. 
+2021-12-21 09:26:24,572 [RMI TCP Connection(13)-127.0.0.1] [36mo.s.o.j.LocalContainerEntityManagerFactoryBean[0;39m - Closing JPA EntityManagerFactory for persistence unit 'default' 
+2021-12-21 09:26:24,574 [RMI TCP Connection(13)-127.0.0.1] [36mc.z.h.HikariDataSource[0;39m - HikariPool-2 - Shutdown initiated... 
+2021-12-21 09:26:24,585 [RMI TCP Connection(13)-127.0.0.1] [36mc.z.h.HikariDataSource[0;39m - HikariPool-2 - Shutdown completed. 
+2021-12-21 09:39:48,680 [restartedMain] [36mc.t.l.LteApplication[0;39m - Starting LteApplication using Java 15 on DESKTOP-7G56MR9 with PID 32 (E:\Technoelevate Project\lte\target\classes started by Sahid in E:\Technoelevate Project\lte) 
+2021-12-21 09:39:48,682 [restartedMain] [36mc.t.l.LteApplication[0;39m - No active profile set, falling back to default profiles: default 
+2021-12-21 09:39:48,796 [restartedMain] [36mo.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[0;39m - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+2021-12-21 09:39:48,797 [restartedMain] [36mo.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[0;39m - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
+2021-12-21 09:39:49,964 [restartedMain] [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+2021-12-21 09:39:50,125 [restartedMain] [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - Finished Spring Data repository scanning in 147 ms. Found 10 JPA repository interfaces. 
+2021-12-21 09:39:51,007 [restartedMain] [36mo.s.b.w.e.t.TomcatWebServer[0;39m - Tomcat initialized with port(s): 8082 (http) 
+2021-12-21 09:39:51,022 [restartedMain] [36mo.a.c.c.StandardService[0;39m - Starting service [Tomcat] 
+2021-12-21 09:39:51,023 [restartedMain] [36mo.a.c.c.StandardEngine[0;39m - Starting Servlet engine: [Apache Tomcat/9.0.55] 
+2021-12-21 09:39:51,209 [restartedMain] [36mo.a.c.c.C.[.[.[/][0;39m - Initializing Spring embedded WebApplicationContext 
+2021-12-21 09:39:51,209 [restartedMain] [36mo.s.b.w.s.c.ServletWebServerApplicationContext[0;39m - Root WebApplicationContext: initialization completed in 2411 ms 
+2021-12-21 09:39:51,446 [restartedMain] [36mo.h.j.i.u.LogHelper[0;39m - HHH000204: Processing PersistenceUnitInfo [name: default] 
+2021-12-21 09:39:51,552 [restartedMain] [36mo.h.Version[0;39m - HHH000412: Hibernate ORM core version 5.6.1.Final 
+2021-12-21 09:39:51,874 [restartedMain] [36mo.h.a.c.Version[0;39m - HCANN000001: Hibernate Commons Annotations {5.1.2.Final} 
+2021-12-21 09:39:52,043 [restartedMain] [36mc.z.h.HikariDataSource[0;39m - HikariPool-1 - Starting... 
+2021-12-21 09:39:52,292 [restartedMain] [36mc.z.h.HikariDataSource[0;39m - HikariPool-1 - Start completed. 
+2021-12-21 09:39:52,316 [restartedMain] [36mo.h.d.Dialect[0;39m - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect 
+2021-12-21 09:39:54,467 [restartedMain] [36mo.h.e.t.j.p.i.JtaPlatformInitiator[0;39m - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+2021-12-21 09:39:54,480 [restartedMain] [36mo.s.o.j.LocalContainerEntityManagerFactoryBean[0;39m - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2021-12-21 09:39:55,705 [restartedMain] [36mo.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration[0;39m - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+2021-12-21 09:39:56,149 [restartedMain] [36mo.s.b.d.a.OptionalLiveReloadServer[0;39m - LiveReload server is running on port 35729 
+2021-12-21 09:39:56,213 [restartedMain] [36mo.s.b.w.e.t.TomcatWebServer[0;39m - Tomcat started on port(s): 8082 (http) with context path '' 
+2021-12-21 09:39:56,231 [restartedMain] [36mc.t.l.LteApplication[0;39m - Started LteApplication in 8.261 seconds (JVM running for 9.769) 
+2021-12-21 09:40:10,479 [http-nio-8082-exec-2] [36mo.a.c.c.C.[.[.[/][0;39m - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2021-12-21 09:40:10,480 [http-nio-8082-exec-2] [36mo.s.w.s.DispatcherServlet[0;39m - Initializing Servlet 'dispatcherServlet' 
+2021-12-21 09:40:10,481 [http-nio-8082-exec-2] [36mo.s.w.s.DispatcherServlet[0;39m - Completed initialization in 1 ms 
+2021-12-21 09:40:10,715 [http-nio-8082-exec-2] [36mc.t.l.s.TimeSheetServiceImpl[0;39m - Employee Id Not Found Try Another Employee Id!!! 
+2021-12-21 09:40:10,832 [http-nio-8082-exec-2] [36mo.s.w.s.m.m.a.ExceptionHandlerExceptionResolver[0;39m - Resolved [com.tyss.lte.exception.IdNotFoundException: Employee Id Not Found Try Another Employee Id!!!] 
+2021-12-21 09:40:19,486 [http-nio-8082-exec-4] [36mc.t.l.c.TimeSheetController[0;39m - Time Sheet Data Fetch Successfully!!! 
+2021-12-21 09:40:28,636 [http-nio-8082-exec-5] [36mc.t.l.s.CalendarDateServiceImpl[0;39m - Calendar Date Not Found Try Another Calendar Date!!! 
+2021-12-21 09:40:28,639 [http-nio-8082-exec-5] [36mo.s.w.s.m.m.a.ExceptionHandlerExceptionResolver[0;39m - Resolved [com.tyss.lte.exception.DateNotFoundException: Calendar Date Not Found Try Another Calendar Date!!!] 
+2021-12-21 09:40:41,075 [http-nio-8082-exec-7] [36mc.t.l.s.CalendarDateServiceImpl[0;39m - Employee Id Not Found Try Another Employee Id!!! 
+2021-12-21 09:40:41,077 [http-nio-8082-exec-7] [36mo.s.w.s.m.m.a.ExceptionHandlerExceptionResolver[0;39m - Resolved [com.tyss.lte.exception.IdNotFoundException: Employee Id Not Found Try Another Employee Id!!!] 
+2021-12-21 09:41:48,268 [RMI TCP Connection(4)-127.0.0.1] [36mo.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin[0;39m - Application shutdown requested. 
+2021-12-21 09:41:48,303 [RMI TCP Connection(4)-127.0.0.1] [36mo.s.o.j.LocalContainerEntityManagerFactoryBean[0;39m - Closing JPA EntityManagerFactory for persistence unit 'default' 
+2021-12-21 09:41:48,308 [RMI TCP Connection(4)-127.0.0.1] [36mc.z.h.HikariDataSource[0;39m - HikariPool-1 - Shutdown initiated... 
+2021-12-21 09:41:48,322 [RMI TCP Connection(4)-127.0.0.1] [36mc.z.h.HikariDataSource[0;39m - HikariPool-1 - Shutdown completed. 
+2021-12-21 10:32:53,035 [restartedMain] [36mc.t.l.LteApplication[0;39m - Starting LteApplication using Java 15 on DESKTOP-7G56MR9 with PID 9076 (E:\Technoelevate Project\lte\target\classes started by Sahid in E:\Technoelevate Project\lte) 
+2021-12-21 10:32:53,038 [restartedMain] [36mc.t.l.LteApplication[0;39m - No active profile set, falling back to default profiles: default 
+2021-12-21 10:32:53,140 [restartedMain] [36mo.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[0;39m - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+2021-12-21 10:32:53,142 [restartedMain] [36mo.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[0;39m - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
+2021-12-21 10:32:54,575 [restartedMain] [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+2021-12-21 10:32:54,781 [restartedMain] [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - Finished Spring Data repository scanning in 182 ms. Found 10 JPA repository interfaces. 
+2021-12-21 10:32:55,818 [restartedMain] [36mo.s.b.w.e.t.TomcatWebServer[0;39m - Tomcat initialized with port(s): 8082 (http) 
+2021-12-21 10:32:55,835 [restartedMain] [36mo.a.c.c.StandardService[0;39m - Starting service [Tomcat] 
+2021-12-21 10:32:55,836 [restartedMain] [36mo.a.c.c.StandardEngine[0;39m - Starting Servlet engine: [Apache Tomcat/9.0.55] 
+2021-12-21 10:32:56,053 [restartedMain] [36mo.a.c.c.C.[.[.[/][0;39m - Initializing Spring embedded WebApplicationContext 
+2021-12-21 10:32:56,054 [restartedMain] [36mo.s.b.w.s.c.ServletWebServerApplicationContext[0;39m - Root WebApplicationContext: initialization completed in 2911 ms 
+2021-12-21 10:32:56,304 [restartedMain] [36mo.h.j.i.u.LogHelper[0;39m - HHH000204: Processing PersistenceUnitInfo [name: default] 
+2021-12-21 10:32:56,416 [restartedMain] [36mo.h.Version[0;39m - HHH000412: Hibernate ORM core version 5.6.1.Final 
+2021-12-21 10:32:56,736 [restartedMain] [36mo.h.a.c.Version[0;39m - HCANN000001: Hibernate Commons Annotations {5.1.2.Final} 
+2021-12-21 10:32:56,912 [restartedMain] [36mc.z.h.HikariDataSource[0;39m - HikariPool-1 - Starting... 
+2021-12-21 10:32:57,213 [restartedMain] [36mc.z.h.HikariDataSource[0;39m - HikariPool-1 - Start completed. 
+2021-12-21 10:32:57,247 [restartedMain] [36mo.h.d.Dialect[0;39m - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect 
+2021-12-21 10:32:59,215 [restartedMain] [36mo.h.e.t.j.p.i.JtaPlatformInitiator[0;39m - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+2021-12-21 10:32:59,235 [restartedMain] [36mo.s.o.j.LocalContainerEntityManagerFactoryBean[0;39m - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2021-12-21 10:33:00,494 [restartedMain] [36mo.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration[0;39m - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+2021-12-21 10:33:00,886 [restartedMain] [36mo.s.b.d.a.OptionalLiveReloadServer[0;39m - LiveReload server is running on port 35729 
+2021-12-21 10:33:00,970 [restartedMain] [36mo.s.b.w.e.t.TomcatWebServer[0;39m - Tomcat started on port(s): 8082 (http) with context path '' 
+2021-12-21 10:33:00,987 [restartedMain] [36mc.t.l.LteApplication[0;39m - Started LteApplication in 8.741 seconds (JVM running for 10.241) 
+2021-12-21 10:33:41,151 [http-nio-8082-exec-2] [36mo.a.c.c.C.[.[.[/][0;39m - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2021-12-21 10:33:41,151 [http-nio-8082-exec-2] [36mo.s.w.s.DispatcherServlet[0;39m - Initializing Servlet 'dispatcherServlet' 
+2021-12-21 10:33:41,152 [http-nio-8082-exec-2] [36mo.s.w.s.DispatcherServlet[0;39m - Completed initialization in 1 ms 
+2021-12-21 10:33:41,438 [http-nio-8082-exec-2] [36mc.t.l.c.TimeSheetController[0;39m - Time Sheet Data Fetch Successfully!!! 
+2021-12-21 10:36:18,410 [http-nio-8082-exec-5] [36mc.t.l.s.CalendarDateServiceImpl[0;39m - Calendar Date Not Found Try Another Calendar Date!!! 
+2021-12-21 10:36:18,423 [http-nio-8082-exec-5] [36mo.s.w.s.m.m.a.ExceptionHandlerExceptionResolver[0;39m - Resolved [com.tyss.lte.exception.DateNotFoundException: Calendar Date Not Found Try Another Calendar Date!!!] 
+2021-12-21 10:36:26,799 [http-nio-8082-exec-6] [36mc.t.l.c.CalendarDateController[0;39m - Calendar Date Remove Successfully!!! 
+2021-12-21 10:41:26,118 [RMI TCP Connection(12)-127.0.0.1] [36mo.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin[0;39m - Application shutdown requested. 
+2021-12-21 10:41:29,235 [RMI TCP Connection(12)-127.0.0.1] [36mo.s.o.j.LocalContainerEntityManagerFactoryBean[0;39m - Closing JPA EntityManagerFactory for persistence unit 'default' 
+2021-12-21 10:41:29,528 [RMI TCP Connection(12)-127.0.0.1] [36mc.z.h.HikariDataSource[0;39m - HikariPool-1 - Shutdown initiated... 
+2021-12-21 10:41:29,849 [RMI TCP Connection(12)-127.0.0.1] [36mc.z.h.HikariDataSource[0;39m - HikariPool-1 - Shutdown completed. 
+2021-12-21 11:18:53,823 [restartedMain] [36mc.t.l.LteApplication[0;39m - Starting LteApplication using Java 15 on DESKTOP-7G56MR9 with PID 11056 (E:\Technoelevate Project\lte\target\classes started by Sahid in E:\Technoelevate Project\lte) 
+2021-12-21 11:18:53,827 [restartedMain] [36mc.t.l.LteApplication[0;39m - No active profile set, falling back to default profiles: default 
+2021-12-21 11:18:53,997 [restartedMain] [36mo.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[0;39m - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+2021-12-21 11:18:53,997 [restartedMain] [36mo.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[0;39m - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
+2021-12-21 11:18:56,091 [restartedMain] [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+2021-12-21 11:18:56,291 [restartedMain] [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - Finished Spring Data repository scanning in 180 ms. Found 10 JPA repository interfaces. 
+2021-12-21 11:18:57,602 [restartedMain] [36mo.s.b.w.e.t.TomcatWebServer[0;39m - Tomcat initialized with port(s): 8082 (http) 
+2021-12-21 11:18:57,622 [restartedMain] [36mo.a.c.c.StandardService[0;39m - Starting service [Tomcat] 
+2021-12-21 11:18:57,623 [restartedMain] [36mo.a.c.c.StandardEngine[0;39m - Starting Servlet engine: [Apache Tomcat/9.0.55] 
+2021-12-21 11:18:57,873 [restartedMain] [36mo.a.c.c.C.[.[.[/][0;39m - Initializing Spring embedded WebApplicationContext 
+2021-12-21 11:18:57,874 [restartedMain] [36mo.s.b.w.s.c.ServletWebServerApplicationContext[0;39m - Root WebApplicationContext: initialization completed in 3875 ms 
+2021-12-21 11:18:58,234 [restartedMain] [36mo.h.j.i.u.LogHelper[0;39m - HHH000204: Processing PersistenceUnitInfo [name: default] 
+2021-12-21 11:18:58,497 [restartedMain] [36mo.h.Version[0;39m - HHH000412: Hibernate ORM core version 5.6.1.Final 
+2021-12-21 11:18:59,005 [restartedMain] [36mo.h.a.c.Version[0;39m - HCANN000001: Hibernate Commons Annotations {5.1.2.Final} 
+2021-12-21 11:18:59,349 [restartedMain] [36mc.z.h.HikariDataSource[0;39m - HikariPool-1 - Starting... 
+2021-12-21 11:18:59,820 [restartedMain] [36mc.z.h.HikariDataSource[0;39m - HikariPool-1 - Start completed. 
+2021-12-21 11:18:59,869 [restartedMain] [36mo.h.d.Dialect[0;39m - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect 
+2021-12-21 11:19:07,968 [restartedMain] [36mo.h.e.t.j.p.i.JtaPlatformInitiator[0;39m - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+2021-12-21 11:19:07,997 [restartedMain] [36mo.s.o.j.LocalContainerEntityManagerFactoryBean[0;39m - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2021-12-21 11:19:09,936 [restartedMain] [36mo.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration[0;39m - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+2021-12-21 11:19:10,613 [restartedMain] [36mo.s.b.d.a.OptionalLiveReloadServer[0;39m - LiveReload server is running on port 35729 
+2021-12-21 11:19:10,701 [restartedMain] [36mo.s.b.w.e.t.TomcatWebServer[0;39m - Tomcat started on port(s): 8082 (http) with context path '' 
+2021-12-21 11:19:10,726 [restartedMain] [36mc.t.l.LteApplication[0;39m - Started LteApplication in 18.409 seconds (JVM running for 22.343) 
+2021-12-21 11:19:23,873 [http-nio-8082-exec-2] [36mo.a.c.c.C.[.[.[/][0;39m - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2021-12-21 11:19:23,875 [http-nio-8082-exec-2] [36mo.s.w.s.DispatcherServlet[0;39m - Initializing Servlet 'dispatcherServlet' 
+2021-12-21 11:19:23,888 [http-nio-8082-exec-2] [36mo.s.w.s.DispatcherServlet[0;39m - Completed initialization in 12 ms 
+2021-12-21 11:19:24,444 [http-nio-8082-exec-2] [36mo.s.w.s.m.m.a.ExceptionHandlerExceptionResolver[0;39m - Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<?> com.tyss.lte.controller.TimeSheetController.addTimeSheet(com.tyss.lte.pojo.TimeSheetPojo): [Field error in object 'timeSheetPojo' on field 'logoutTime': rejected value [19:00]; codes [PastOrPresent.timeSheetPojo.logoutTime,PastOrPresent.logoutTime,PastOrPresent.java.time.LocalTime,PastOrPresent]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [timeSheetPojo.logoutTime,logoutTime]; arguments []; default message [logoutTime]]; default message [Time Must Be Past Or Present Time!!!]] ] 
+2021-12-21 11:19:54,864 [http-nio-8082-exec-4] [36mc.t.l.c.TimeSheetController[0;39m - Time Sheet Data Added Successfully!!! 
+2021-12-21 11:20:12,872 [http-nio-8082-exec-5] [36mc.t.l.c.TimeSheetController[0;39m - Time Sheet Data Added Successfully!!! 
+2021-12-21 11:20:30,093 [http-nio-8082-exec-6] [36mc.t.l.c.TimeSheetController[0;39m - Time Sheet Data Added Successfully!!! 
+2021-12-21 11:25:27,559 [Thread-5] [36mo.s.o.j.LocalContainerEntityManagerFactoryBean[0;39m - Closing JPA EntityManagerFactory for persistence unit 'default' 
+2021-12-21 11:25:27,729 [Thread-5] [36mc.z.h.HikariDataSource[0;39m - HikariPool-1 - Shutdown initiated... 
+2021-12-21 11:25:27,898 [Thread-5] [36mc.z.h.HikariDataSource[0;39m - HikariPool-1 - Shutdown completed. 
+2021-12-21 11:25:28,542 [restartedMain] [36mc.t.l.LteApplication[0;39m - Starting LteApplication using Java 15 on DESKTOP-7G56MR9 with PID 11056 (E:\Technoelevate Project\lte\target\classes started by Sahid in E:\Technoelevate Project\lte) 
+2021-12-21 11:25:28,543 [restartedMain] [36mc.t.l.LteApplication[0;39m - No active profile set, falling back to default profiles: default 
+2021-12-21 11:25:28,927 [restartedMain] [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+2021-12-21 11:25:29,001 [restartedMain] [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - Finished Spring Data repository scanning in 72 ms. Found 10 JPA repository interfaces. 
+2021-12-21 11:25:29,241 [restartedMain] [36mo.s.b.w.e.t.TomcatWebServer[0;39m - Tomcat initialized with port(s): 8082 (http) 
+2021-12-21 11:25:29,244 [restartedMain] [36mo.a.c.c.StandardService[0;39m - Starting service [Tomcat] 
+2021-12-21 11:25:29,244 [restartedMain] [36mo.a.c.c.StandardEngine[0;39m - Starting Servlet engine: [Apache Tomcat/9.0.55] 
+2021-12-21 11:25:29,288 [restartedMain] [36mo.a.c.c.C.[.[.[/][0;39m - Initializing Spring embedded WebApplicationContext 
+2021-12-21 11:25:29,288 [restartedMain] [36mo.s.b.w.s.c.ServletWebServerApplicationContext[0;39m - Root WebApplicationContext: initialization completed in 739 ms 
+2021-12-21 11:25:29,365 [restartedMain] [36mo.h.j.i.u.LogHelper[0;39m - HHH000204: Processing PersistenceUnitInfo [name: default] 
+2021-12-21 11:25:29,377 [restartedMain] [36mc.z.h.HikariDataSource[0;39m - HikariPool-2 - Starting... 
+2021-12-21 11:25:29,390 [restartedMain] [36mc.z.h.HikariDataSource[0;39m - HikariPool-2 - Start completed. 
+2021-12-21 11:25:29,391 [restartedMain] [36mo.h.d.Dialect[0;39m - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect 
+2021-12-21 11:25:30,511 [restartedMain] [36mo.h.e.t.j.p.i.JtaPlatformInitiator[0;39m - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+2021-12-21 11:25:30,512 [restartedMain] [36mo.s.o.j.LocalContainerEntityManagerFactoryBean[0;39m - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2021-12-21 11:25:31,208 [restartedMain] [36mo.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration[0;39m - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+2021-12-21 11:25:31,418 [restartedMain] [36mo.s.b.d.a.OptionalLiveReloadServer[0;39m - LiveReload server is running on port 35729 
+2021-12-21 11:25:31,444 [restartedMain] [36mo.s.b.w.e.t.TomcatWebServer[0;39m - Tomcat started on port(s): 8082 (http) with context path '' 
+2021-12-21 11:25:31,454 [restartedMain] [36mc.t.l.LteApplication[0;39m - Started LteApplication in 2.986 seconds (JVM running for 403.07) 
+2021-12-21 11:25:31,457 [restartedMain] [36mo.s.b.d.a.ConditionEvaluationDeltaLoggingListener[0;39m - Condition evaluation unchanged 
+2021-12-21 11:33:24,585 [HikariPool-2 housekeeper] [36mc.z.h.p.HikariPool[0;39m - HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=54s642ms538µs200ns). 
+2021-12-21 11:34:27,296 [RMI TCP Connection(18)-127.0.0.1] [36mo.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin[0;39m - Application shutdown requested. 
+2021-12-21 11:34:27,859 [RMI TCP Connection(18)-127.0.0.1] [36mo.s.o.j.LocalContainerEntityManagerFactoryBean[0;39m - Closing JPA EntityManagerFactory for persistence unit 'default' 
+2021-12-21 11:34:27,918 [RMI TCP Connection(18)-127.0.0.1] [36mc.z.h.HikariDataSource[0;39m - HikariPool-2 - Shutdown initiated... 
+2021-12-21 11:34:27,961 [RMI TCP Connection(18)-127.0.0.1] [36mc.z.h.HikariDataSource[0;39m - HikariPool-2 - Shutdown completed. 
+2021-12-21 11:36:15,747 [restartedMain] [36mc.t.l.LteApplication[0;39m - Starting LteApplication using Java 15 on DESKTOP-7G56MR9 with PID 8788 (E:\Technoelevate Project\lte\target\classes started by Sahid in E:\Technoelevate Project\lte) 
+2021-12-21 11:36:15,750 [restartedMain] [36mc.t.l.LteApplication[0;39m - No active profile set, falling back to default profiles: default 
+2021-12-21 11:36:15,877 [restartedMain] [36mo.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[0;39m - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+2021-12-21 11:36:15,877 [restartedMain] [36mo.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[0;39m - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
+2021-12-21 11:36:17,373 [restartedMain] [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+2021-12-21 11:36:17,533 [restartedMain] [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - Finished Spring Data repository scanning in 144 ms. Found 10 JPA repository interfaces. 
+2021-12-21 11:36:18,568 [restartedMain] [36mo.s.b.w.e.t.TomcatWebServer[0;39m - Tomcat initialized with port(s): 8082 (http) 
+2021-12-21 11:36:18,586 [restartedMain] [36mo.a.c.c.StandardService[0;39m - Starting service [Tomcat] 
+2021-12-21 11:36:18,586 [restartedMain] [36mo.a.c.c.StandardEngine[0;39m - Starting Servlet engine: [Apache Tomcat/9.0.55] 
+2021-12-21 11:36:18,781 [restartedMain] [36mo.a.c.c.C.[.[.[/][0;39m - Initializing Spring embedded WebApplicationContext 
+2021-12-21 11:36:18,782 [restartedMain] [36mo.s.b.w.s.c.ServletWebServerApplicationContext[0;39m - Root WebApplicationContext: initialization completed in 2903 ms 
+2021-12-21 11:36:19,076 [restartedMain] [36mo.h.j.i.u.LogHelper[0;39m - HHH000204: Processing PersistenceUnitInfo [name: default] 
+2021-12-21 11:36:19,185 [restartedMain] [36mo.h.Version[0;39m - HHH000412: Hibernate ORM core version 5.6.1.Final 
+2021-12-21 11:36:19,497 [restartedMain] [36mo.h.a.c.Version[0;39m - HCANN000001: Hibernate Commons Annotations {5.1.2.Final} 
+2021-12-21 11:36:19,697 [restartedMain] [36mc.z.h.HikariDataSource[0;39m - HikariPool-1 - Starting... 
+2021-12-21 11:36:20,030 [restartedMain] [36mc.z.h.HikariDataSource[0;39m - HikariPool-1 - Start completed. 
+2021-12-21 11:36:20,060 [restartedMain] [36mo.h.d.Dialect[0;39m - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect 
+2021-12-21 11:36:22,268 [restartedMain] [36mo.h.e.t.j.p.i.JtaPlatformInitiator[0;39m - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+2021-12-21 11:36:22,283 [restartedMain] [36mo.s.o.j.LocalContainerEntityManagerFactoryBean[0;39m - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2021-12-21 11:36:23,607 [restartedMain] [36mo.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration[0;39m - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+2021-12-21 11:36:24,068 [restartedMain] [36mo.s.b.d.a.OptionalLiveReloadServer[0;39m - LiveReload server is running on port 35729 
+2021-12-21 11:36:24,156 [restartedMain] [36mo.s.b.w.e.t.TomcatWebServer[0;39m - Tomcat started on port(s): 8082 (http) with context path '' 
+2021-12-21 11:36:24,188 [restartedMain] [36mc.t.l.LteApplication[0;39m - Started LteApplication in 9.241 seconds (JVM running for 11.353) 
+2021-12-21 11:38:03,828 [RMI TCP Connection(5)-127.0.0.1] [36mo.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin[0;39m - Application shutdown requested. 
+2021-12-21 11:38:03,866 [RMI TCP Connection(5)-127.0.0.1] [36mo.s.o.j.LocalContainerEntityManagerFactoryBean[0;39m - Closing JPA EntityManagerFactory for persistence unit 'default' 
+2021-12-21 11:38:03,873 [RMI TCP Connection(5)-127.0.0.1] [36mc.z.h.HikariDataSource[0;39m - HikariPool-1 - Shutdown initiated... 
+2021-12-21 11:38:03,892 [RMI TCP Connection(5)-127.0.0.1] [36mc.z.h.HikariDataSource[0;39m - HikariPool-1 - Shutdown completed. 
+2021-12-21 11:38:10,828 [restartedMain] [36mc.t.l.LteApplication[0;39m - Starting LteApplication using Java 15 on DESKTOP-7G56MR9 with PID 11616 (E:\Technoelevate Project\lte\target\classes started by Sahid in E:\Technoelevate Project\lte) 
+2021-12-21 11:38:10,830 [restartedMain] [36mc.t.l.LteApplication[0;39m - No active profile set, falling back to default profiles: default 
+2021-12-21 11:38:10,987 [restartedMain] [36mo.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[0;39m - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+2021-12-21 11:38:10,988 [restartedMain] [36mo.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[0;39m - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
+2021-12-21 11:38:12,244 [restartedMain] [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+2021-12-21 11:38:12,400 [restartedMain] [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - Finished Spring Data repository scanning in 142 ms. Found 10 JPA repository interfaces. 
+2021-12-21 11:38:13,345 [restartedMain] [36mo.s.b.w.e.t.TomcatWebServer[0;39m - Tomcat initialized with port(s): 8082 (http) 
+2021-12-21 11:38:13,361 [restartedMain] [36mo.a.c.c.StandardService[0;39m - Starting service [Tomcat] 
+2021-12-21 11:38:13,362 [restartedMain] [36mo.a.c.c.StandardEngine[0;39m - Starting Servlet engine: [Apache Tomcat/9.0.55] 
+2021-12-21 11:38:13,565 [restartedMain] [36mo.a.c.c.C.[.[.[/][0;39m - Initializing Spring embedded WebApplicationContext 
+2021-12-21 11:38:13,566 [restartedMain] [36mo.s.b.w.s.c.ServletWebServerApplicationContext[0;39m - Root WebApplicationContext: initialization completed in 2577 ms 
+2021-12-21 11:38:13,852 [restartedMain] [36mo.h.j.i.u.LogHelper[0;39m - HHH000204: Processing PersistenceUnitInfo [name: default] 
+2021-12-21 11:38:13,976 [restartedMain] [36mo.h.Version[0;39m - HHH000412: Hibernate ORM core version 5.6.1.Final 
+2021-12-21 11:38:14,334 [restartedMain] [36mo.h.a.c.Version[0;39m - HCANN000001: Hibernate Commons Annotations {5.1.2.Final} 
+2021-12-21 11:38:14,528 [restartedMain] [36mc.z.h.HikariDataSource[0;39m - HikariPool-1 - Starting... 
+2021-12-21 11:38:14,837 [restartedMain] [36mc.z.h.HikariDataSource[0;39m - HikariPool-1 - Start completed. 
+2021-12-21 11:38:14,865 [restartedMain] [36mo.h.d.Dialect[0;39m - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect 
+2021-12-21 11:38:16,610 [restartedMain] [36mo.h.t.s.i.ExceptionHandlerLoggedImpl[0;39m - GenerationTarget encountered exception accepting command : Error executing DDL "create table assign_trainer (trainer_id integer not null auto_increment, day varchar(255), email varchar(255), name varchar(255), technology LONGCLOB, batch_id integer, primary key (trainer_id)) engine=MyISAM" via JDBC Statement 
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "create table assign_trainer (trainer_id integer not null auto_increment, day varchar(255), email varchar(255), name varchar(255), technology LONGCLOB, batch_id integer, primary key (trainer_id)) engine=MyISAM" via JDBC Statement
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlString(AbstractSchemaMigrator.java:563)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlStrings(AbstractSchemaMigrator.java:508)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.createTable(AbstractSchemaMigrator.java:278)
+	at org.hibernate.tool.schema.internal.GroupedSchemaMigratorImpl.performTablesMigration(GroupedSchemaMigratorImpl.java:71)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.performMigration(AbstractSchemaMigrator.java:208)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:115)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:192)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:81)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:327)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:471)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1498)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1154)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:908)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:730)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:412)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:302)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1290)
+	at com.tyss.lte.LteApplication.main(LteApplication.java:13)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LONGCLOB, batch_id integer, primary key (trainer_id)) engine=MyISAM' at line 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:768)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:653)
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54)
+	... 39 common frames omitted
+2021-12-21 11:38:16,614 [restartedMain] [36mo.h.t.s.i.ExceptionHandlerLoggedImpl[0;39m - GenerationTarget encountered exception accepting command : Error executing DDL "create table batch (batch_id integer not null auto_increment, date date, location varchar(255) not null, technology varchar(255) not null, toc varchar(255), ty_mentor LONGCLOB, type_of_mentor varchar(255), primary key (batch_id)) engine=MyISAM" via JDBC Statement 
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "create table batch (batch_id integer not null auto_increment, date date, location varchar(255) not null, technology varchar(255) not null, toc varchar(255), ty_mentor LONGCLOB, type_of_mentor varchar(255), primary key (batch_id)) engine=MyISAM" via JDBC Statement
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlString(AbstractSchemaMigrator.java:563)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlStrings(AbstractSchemaMigrator.java:508)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.createTable(AbstractSchemaMigrator.java:278)
+	at org.hibernate.tool.schema.internal.GroupedSchemaMigratorImpl.performTablesMigration(GroupedSchemaMigratorImpl.java:71)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.performMigration(AbstractSchemaMigrator.java:208)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:115)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:192)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:81)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:327)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:471)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1498)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1154)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:908)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:730)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:412)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:302)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1290)
+	at com.tyss.lte.LteApplication.main(LteApplication.java:13)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LONGCLOB, type_of_mentor varchar(255), primary key (batch_id)) engine=MyISAM' at line 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:768)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:653)
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54)
+	... 39 common frames omitted
+2021-12-21 11:38:16,673 [restartedMain] [36mo.h.t.s.i.ExceptionHandlerLoggedImpl[0;39m - GenerationTarget encountered exception accepting command : Error executing DDL "alter table assign_trainer add constraint FKsfst99ftwvicscmfp3gov63jk foreign key (batch_id) references batch (batch_id)" via JDBC Statement 
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "alter table assign_trainer add constraint FKsfst99ftwvicscmfp3gov63jk foreign key (batch_id) references batch (batch_id)" via JDBC Statement
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlString(AbstractSchemaMigrator.java:563)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlStrings(AbstractSchemaMigrator.java:508)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applyForeignKeys(AbstractSchemaMigrator.java:434)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.performMigration(AbstractSchemaMigrator.java:250)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:115)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:192)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:81)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:327)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:471)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1498)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1154)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:908)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:730)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:412)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:302)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1290)
+	at com.tyss.lte.LteApplication.main(LteApplication.java:13)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.sql.SQLSyntaxErrorException: Table 'lte.assign_trainer' doesn't exist
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:768)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:653)
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54)
+	... 38 common frames omitted
+2021-12-21 11:38:16,790 [restartedMain] [36mo.h.e.t.j.p.i.JtaPlatformInitiator[0;39m - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+2021-12-21 11:38:16,804 [restartedMain] [36mo.s.o.j.LocalContainerEntityManagerFactoryBean[0;39m - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2021-12-21 11:38:18,095 [restartedMain] [36mo.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration[0;39m - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+2021-12-21 11:38:18,564 [restartedMain] [36mo.s.b.d.a.OptionalLiveReloadServer[0;39m - LiveReload server is running on port 35729 
+2021-12-21 11:38:18,639 [restartedMain] [36mo.s.b.w.e.t.TomcatWebServer[0;39m - Tomcat started on port(s): 8082 (http) with context path '' 
+2021-12-21 11:38:18,662 [restartedMain] [36mc.t.l.LteApplication[0;39m - Started LteApplication in 8.465 seconds (JVM running for 10.088) 
+2021-12-21 11:40:17,751 [RMI TCP Connection(4)-127.0.0.1] [36mo.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin[0;39m - Application shutdown requested. 
+2021-12-21 11:40:17,949 [RMI TCP Connection(4)-127.0.0.1] [36mo.s.o.j.LocalContainerEntityManagerFactoryBean[0;39m - Closing JPA EntityManagerFactory for persistence unit 'default' 
+2021-12-21 11:40:17,985 [RMI TCP Connection(4)-127.0.0.1] [36mc.z.h.HikariDataSource[0;39m - HikariPool-1 - Shutdown initiated... 
+2021-12-21 11:40:18,046 [RMI TCP Connection(4)-127.0.0.1] [36mc.z.h.HikariDataSource[0;39m - HikariPool-1 - Shutdown completed. 
